@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="joomla" default="build" basedir=".">
+	<property name="joomlasource" value="${basedir}/../joomla-cms" />
+
+	<target name="phpcs-admincomponents" description="Codestyle report for administrator/components">
+		<exec executable="phpcs">
+			<arg value="--report=xml" />
+			<arg value="-p" />
+			<arg value="--report-file=${basedir}/reports/administrator/components.xml" />
+			<arg value="--standard=${basedir}/cms-ruleset/Joomla" />
+			<arg path="${joomlasource}/administrator/components" />
+		</exec>
+	</target>
+
+	<target name="phpcs-adminincludes" description="Codestyle report for administrator/includes">
+		<exec executable="phpcs">
+			<arg value="--report=xml" />
+			<arg value="-p" />
+			<arg value="--report-file=${basedir}/reports/administrator/includes.xml" />
+			<arg value="--standard=${basedir}/cms-ruleset/Joomla" />
+			<arg path="${joomlasource}/administrator/includes" />
+		</exec>
+	</target>
+
+	<target name="phpcs-adminmodules" description="Codestyle report for administrator/modules">
+		<exec executable="phpcs">
+			<arg value="--report=xml" />
+			<arg value="-p" />
+			<arg value="--report-file=${basedir}/reports/administrator/modules.xml" />
+			<arg value="--standard=${basedir}/cms-ruleset/Joomla" />
+			<arg path="${joomlasource}/administrator/modules" />
+		</exec>
+	</target>
+
+	<target name="phpcs-sitecomponents" description="Codestyle report for components">
+		<exec executable="phpcs">
+			<arg value="--report=xml" />
+			<arg value="-p" />
+			<arg value="--report-file=${basedir}/reports/components.xml" />
+			<arg value="--standard=${basedir}/cms-ruleset/Joomla" />
+			<arg path="${joomlasource}/components" />
+		</exec>
+	</target>
+
+	<target name="phpcs-siteincludes" description="Codestyle report for includes">
+		<exec executable="phpcs">
+			<arg value="--report=xml" />
+			<arg value="-p" />
+			<arg value="--report-file=${basedir}/reports/includes.xml" />
+			<arg value="--standard=${basedir}/cms-ruleset/Joomla" />
+			<arg path="${joomlasource}/includes" />
+		</exec>
+	</target>
+
+	<target name="phpcs-sitemodules" description="Codestyle report for modules">
+		<exec executable="phpcs">
+			<arg value="--report=xml" />
+			<arg value="-p" />
+			<arg value="--report-file=${basedir}/reports/modules.xml" />
+			<arg value="--standard=${basedir}/cms-ruleset/Joomla" />
+			<arg path="${joomlasource}/modules" />
+		</exec>
+	</target>
+
+	<target name="phpcs-libraries" description="Codestyle report for libraries">
+		<exec executable="phpcs">
+			<arg value="--report=xml" />
+			<arg value="-p" />
+			<arg value="--report-file=${basedir}/reports/libraries.xml" />
+			<arg value="--standard=${basedir}/cms-ruleset/Joomla" />
+			<arg path="${joomlasource}/libraries/cms" />
+			<arg path="${joomlasource}/libraries/joomla" />
+			<arg path="${joomlasource}/libraries/legacy" />
+			<arg path="${joomlasource}/libraries/cms.php" />
+			<arg path="${joomlasource}/libraries/import.php" />
+			<arg path="${joomlasource}/libraries/import.legacy.php" />
+			<arg path="${joomlasource}/libraries/loader.php" />
+			<arg path="${joomlasource}/libraries/platform.php" />
+		</exec>
+	</target>
+
+	<target name="phpcs-plugins" description="Codestyle report for plugins">
+		<exec executable="phpcs">
+			<arg value="--report=xml" />
+			<arg value="-p" />
+			<arg value="--report-file=${basedir}/reports/plugins.xml" />
+			<arg value="--standard=${basedir}/cms-ruleset/Joomla" />
+			<arg path="${joomlasource}/plugins" />
+		</exec>
+	</target>
+
+	<target name="sanitize" description="Sanitizes the file paths by removing the local system path">
+		<exec executable="php">
+			<arg path="src/sanitize.php" />
+		</exec>
+	</target>
+
+	<target name="build" description="Runs PHPCS reports for all defined folders."
+		depends="phpcs-admincomponents,phpcs-adminincludes,phpcs-adminmodules,phpcs-sitecomponents,phpcs-siteincludes,phpcs-sitemodules,phpcs-libraries,phpcs-plugins,sanitize" />
+</project>
