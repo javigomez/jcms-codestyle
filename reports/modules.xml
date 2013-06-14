@@ -401,12 +401,12 @@
  </file>
  <file name="/modules/mod_related_items/helper.php" errors="6" warnings="1">
   <error line="23" column="16" source="Joomla.Commenting.FunctionComment.Missing" severity="5">Missing function doc comment</error>
-  <error line="45" column="4" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// select the meta keywords from the item"</error>
-  <error line="54" column="5" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// explode the meta keys on a comma"</error>
-  <error line="58" column="5" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// assemble any non-blank word(s)"</error>
-  <error line="70" column="6" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// select other items based on the metakey field 'like' the keys found"</error>
-  <warning line="104" column="121" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 167 characters</warning>
-  <error line="104" column="121" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//remove single space after commas in keywords)"</error>
+  <error line="46" column="4" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// select the meta keywords from the item"</error>
+  <error line="55" column="5" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// explode the meta keys on a comma"</error>
+  <error line="59" column="5" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// assemble any non-blank word(s)"</error>
+  <error line="71" column="6" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// select other items based on the metakey field 'like' the keys found"</error>
+  <warning line="105" column="121" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 167 characters</warning>
+  <error line="105" column="121" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//remove single space after commas in keywords)"</error>
  </file>
  <file name="/modules/mod_related_items/tmpl/default.php" errors="1" warnings="0">
   <error line="16" column="90" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
