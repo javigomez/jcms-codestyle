@@ -56,16 +56,16 @@
   <error line="271" column="16" source="Joomla.Commenting.FunctionComment.WrongStyle" severity="5">You must use "/**" style comments for a function comment</error>
   <error line="288" column="1" source="Joomla.Commenting.FunctionComment.BeforeParamType" severity="5">Expected 3 spaces before variable type</error>
   <error line="289" column="1" source="Joomla.Commenting.FunctionComment.BeforeParamType" severity="5">Expected 3 spaces before variable type</error>
-  <error line="310" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
-  <error line="319" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
-  <error line="327" column="16" source="Joomla.Commenting.FunctionComment.WrongStyle" severity="5">You must use "/**" style comments for a function comment</error>
-  <error line="331" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
-  <error line="333" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
-  <error line="343" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
-  <error line="348" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
-  <error line="364" column="16" source="Joomla.Commenting.FunctionComment.Missing" severity="5">Missing function doc comment</error>
-  <error line="364" column="60" source="PEAR.Functions.ValidDefaultValue.NotAtEnd" severity="5">Arguments with default values must be at the end of the argument list</error>
-  <error line="380" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "switch (...)\n...{\n"; found "switch(...)\n...{\n"</error>
+  <error line="309" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
+  <error line="318" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
+  <error line="326" column="16" source="Joomla.Commenting.FunctionComment.WrongStyle" severity="5">You must use "/**" style comments for a function comment</error>
+  <error line="330" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
+  <error line="332" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
+  <error line="342" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
+  <error line="347" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
+  <error line="363" column="16" source="Joomla.Commenting.FunctionComment.Missing" severity="5">Missing function doc comment</error>
+  <error line="363" column="60" source="PEAR.Functions.ValidDefaultValue.NotAtEnd" severity="5">Arguments with default values must be at the end of the argument list</error>
+  <error line="379" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "switch (...)\n...{\n"; found "switch(...)\n...{\n"</error>
  </file>
  <file name="/modules/mod_articles_category/mod_articles_category.php" errors="3" warnings="0">
   <error line="20" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "switch (...)\n...{\n"; found "switch(...)\n...{\n"</error>
@@ -447,6 +447,29 @@
   <error line="105" column="31" source="Joomla.WhiteSpace.ConcatenationSpacing.Too much" severity="5">Expected 1 space before concat operator; 2 found</error>
   <error line="110" column="31" source="Joomla.WhiteSpace.ConcatenationSpacing.Too much" severity="5">Expected 1 space before concat operator; 2 found</error>
   <warning line="120" column="156" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 155 characters</warning>
+ </file>
+ <file name="/modules/mod_tweetdisplayback/fields/version.php" errors="0" warnings="1">
+  <warning line="95" column="162" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 161 characters</warning>
+ </file>
+ <file name="/modules/mod_tweetdisplayback/helper.php" errors="1" warnings="14">
+  <error line="518" column="64" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+  <warning line="563" column="218" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 217 characters</warning>
+  <warning line="571" column="152" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 151 characters</warning>
+  <warning line="572" column="159" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 158 characters</warning>
+  <warning line="783" column="173" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 172 characters</warning>
+  <warning line="812" column="177" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 176 characters</warning>
+  <warning line="829" column="186" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 185 characters</warning>
+  <warning line="840" column="172" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 171 characters</warning>
+  <warning line="863" column="228" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 227 characters</warning>
+  <warning line="869" column="267" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 266 characters</warning>
+  <warning line="889" column="251" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 250 characters</warning>
+  <warning line="890" column="255" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 254 characters</warning>
+  <warning line="891" column="258" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 257 characters</warning>
+  <warning line="908" column="220" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 219 characters</warning>
+  <warning line="913" column="261" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 260 characters</warning>
+ </file>
+ <file name="/modules/mod_tweetdisplayback/mod_tweetdisplayback.php" errors="0" warnings="1">
+  <warning line="47" column="163" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 162 characters</warning>
  </file>
  <file name="/modules/mod_users_latest/helper.php" errors="3" warnings="0">
   <error line="17" column="1" source="Joomla.Commenting.ClassComment.MissingTag" severity="5">Missing @since tag in class comment</error>

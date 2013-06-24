@@ -17,25 +17,25 @@
   <error line="137" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
   <error line="137" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
   <error line="139" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
-  <error line="177" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
-  <error line="196" column="1" source="Joomla.ControlStructures.MultiLineCondition.CloseBracketNewLine" severity="5">Closing parenthesis of a multi-line IF statement must be on the same line</error>
-  <warning line="198" column="168" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 167 characters</warning>
-  <error line="219" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var Array('username' does not match actual variable name $credentials at position 1</error>
-  <error line="219" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
-  <error line="220" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var Array('remember' does not match actual variable name $options at position 2</error>
-  <error line="222" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
-  <error line="228" column="3" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//The minimum group"</error>
-  <error line="231" column="3" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//Make sure users are not autoregistered"</error>
-  <error line="234" column="3" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//Set the application login entry point"</error>
-  <error line="257" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$params" missing</error>
-  <error line="260" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
-  <error line="270" column="4" source="Joomla.Commenting.SingleComment.TooClose" severity="5">Please consider a blank line preceding your comment</error>
-  <error line="312" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
-  <error line="330" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// check if auto_purge value set"</error>
-  <error line="337" column="4" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// if no value set, default is 7 days"</error>
-  <error line="340" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// calculation of past date"</error>
-  <error line="342" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// if purge value is not 0, then allow purging of old messages"</error>
-  <error line="345" column="4" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// purge old messages at day set in message configuration"</error>
+  <error line="176" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+  <error line="195" column="1" source="Joomla.ControlStructures.MultiLineCondition.CloseBracketNewLine" severity="5">Closing parenthesis of a multi-line IF statement must be on the same line</error>
+  <warning line="197" column="168" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 167 characters</warning>
+  <error line="218" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var Array('username' does not match actual variable name $credentials at position 1</error>
+  <error line="218" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+  <error line="219" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var Array('remember' does not match actual variable name $options at position 2</error>
+  <error line="221" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+  <error line="227" column="3" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//The minimum group"</error>
+  <error line="230" column="3" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//Make sure users are not autoregistered"</error>
+  <error line="233" column="3" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//Set the application login entry point"</error>
+  <error line="256" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$params" missing</error>
+  <error line="259" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+  <error line="269" column="4" source="Joomla.Commenting.SingleComment.TooClose" severity="5">Please consider a blank line preceding your comment</error>
+  <error line="311" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+  <error line="329" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// check if auto_purge value set"</error>
+  <error line="336" column="4" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// if no value set, default is 7 days"</error>
+  <error line="339" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// calculation of past date"</error>
+  <error line="341" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// if purge value is not 0, then allow purging of old messages"</error>
+  <error line="344" column="4" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// purge old messages at day set in message configuration"</error>
  </file>
  <file name="/administrator/includes/defines.php" errors="3" warnings="0">
   <error line="11" column="1" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//Global definitions."</error>
