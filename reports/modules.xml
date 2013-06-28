@@ -448,29 +448,6 @@
   <error line="110" column="31" source="Joomla.WhiteSpace.ConcatenationSpacing.Too much" severity="5">Expected 1 space before concat operator; 2 found</error>
   <warning line="120" column="156" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 155 characters</warning>
  </file>
- <file name="/modules/mod_tweetdisplayback/fields/version.php" errors="0" warnings="1">
-  <warning line="95" column="162" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 161 characters</warning>
- </file>
- <file name="/modules/mod_tweetdisplayback/helper.php" errors="1" warnings="14">
-  <error line="518" column="64" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <warning line="563" column="218" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 217 characters</warning>
-  <warning line="571" column="152" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 151 characters</warning>
-  <warning line="572" column="159" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 158 characters</warning>
-  <warning line="783" column="173" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 172 characters</warning>
-  <warning line="812" column="177" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 176 characters</warning>
-  <warning line="829" column="186" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 185 characters</warning>
-  <warning line="840" column="172" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 171 characters</warning>
-  <warning line="863" column="228" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 227 characters</warning>
-  <warning line="869" column="267" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 266 characters</warning>
-  <warning line="889" column="251" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 250 characters</warning>
-  <warning line="890" column="255" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 254 characters</warning>
-  <warning line="891" column="258" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 257 characters</warning>
-  <warning line="908" column="220" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 219 characters</warning>
-  <warning line="913" column="261" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 260 characters</warning>
- </file>
- <file name="/modules/mod_tweetdisplayback/mod_tweetdisplayback.php" errors="0" warnings="1">
-  <warning line="47" column="163" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 162 characters</warning>
- </file>
  <file name="/modules/mod_users_latest/helper.php" errors="3" warnings="0">
   <error line="17" column="1" source="Joomla.Commenting.ClassComment.MissingTag" severity="5">Missing @since tag in class comment</error>
   <error line="20" column="2" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// get users sorted by activation date"</error>
