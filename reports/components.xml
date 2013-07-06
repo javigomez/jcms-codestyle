@@ -1779,8 +1779,8 @@
   <error line="68" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
  </file>
  <file name="/components/com_users/views/profile/tmpl/default.php" errors="2" warnings="0">
-  <error line="16" column="100" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="16" column="100" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+  <error line="23" column="100" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+  <error line="23" column="100" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
  </file>
  <file name="/components/com_users/views/profile/tmpl/default_custom.php" errors="16" warnings="0">
   <error line="24" column="7" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//if ($this-&gt;params-&gt;get('show_tags')) :"</error>

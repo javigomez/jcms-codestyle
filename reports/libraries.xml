@@ -12,13 +12,17 @@
   <warning line="79" column="165" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 164 characters</warning>
  </file>
  <file name="/libraries/cms/helper/tags.php" errors="0" warnings="4">
-  <warning line="67" column="208" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 207 characters</warning>
-  <warning line="71" column="177" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 176 characters</warning>
-  <warning line="435" column="166" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 165 characters</warning>
-  <warning line="437" column="161" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 160 characters</warning>
+  <warning line="72" column="208" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 207 characters</warning>
+  <warning line="76" column="177" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 176 characters</warning>
+  <warning line="526" column="166" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 165 characters</warning>
+  <warning line="528" column="161" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 160 characters</warning>
  </file>
- <file name="/libraries/cms/html/grid.php" errors="0" warnings="1">
-  <warning line="255" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
+ <file name="/libraries/cms/html/grid.php" errors="0" warnings="2">
+  <warning line="128" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
+  <warning line="273" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
+ </file>
+ <file name="/libraries/cms/html/html.php" errors="0" warnings="1">
+  <warning line="1001" column="152" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 151 characters</warning>
  </file>
  <file name="/libraries/cms/html/sortablelist.php" errors="1" warnings="1">
   <error line="41" column="71" source="PEAR.Functions.ValidDefaultValue.NotAtEnd" severity="5">Arguments with default values must be at the end of the argument list</error>
