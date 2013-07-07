@@ -7,9 +7,12 @@ ini_set('error_reporting', E_ALL | E_STRICT);
 $reports = array(
 	'administrator/components.xml',
 	'administrator/includes.xml',
+	'administrator/language.xml',
 	'administrator/modules.xml',
 	'components.xml',
 	'includes.xml',
+	'installation.xml',
+	'language.xml',
 	'libraries.xml',
 	'modules.xml',
 	'plugins.xml'

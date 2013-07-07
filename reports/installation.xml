@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpcs version="1.4.5">
+ <file name="/installation/model/setup.php" errors="0" warnings="1">
+  <warning line="315" column="168" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 167 characters</warning>
+ </file>
+</phpcs>

@@ -23,6 +23,16 @@
 		</exec>
 	</target>
 
+	<target name="phpcs-adminlanguage" description="Codestyle report for administrator/language">
+		<exec executable="phpcs">
+			<arg value="--report=xml" />
+			<arg value="-p" />
+			<arg value="--report-file=${basedir}/reports/administrator/language.xml" />
+			<arg value="--standard=${basedir}/cms-ruleset/Joomla" />
+			<arg path="${joomlasource}/administrator/language" />
+		</exec>
+	</target>
+
 	<target name="phpcs-adminmodules" description="Codestyle report for administrator/modules">
 		<exec executable="phpcs">
 			<arg value="--report=xml" />
@@ -53,6 +63,16 @@
 		</exec>
 	</target>
 
+	<target name="phpcs-sitelanguage" description="Codestyle report for language">
+		<exec executable="phpcs">
+			<arg value="--report=xml" />
+			<arg value="-p" />
+			<arg value="--report-file=${basedir}/reports/language.xml" />
+			<arg value="--standard=${basedir}/cms-ruleset/Joomla" />
+			<arg path="${joomlasource}/language" />
+		</exec>
+	</target>
+
 	<target name="phpcs-sitemodules" description="Codestyle report for modules">
 		<exec executable="phpcs">
 			<arg value="--report=xml" />
@@ -60,6 +80,17 @@
 			<arg value="--report-file=${basedir}/reports/modules.xml" />
 			<arg value="--standard=${basedir}/cms-ruleset/Joomla" />
 			<arg path="${joomlasource}/modules" />
+		</exec>
+	</target>
+
+	<target name="phpcs-installation" description="Codestyle report for installation">
+		<exec executable="phpcs">
+			<arg value="--report=xml" />
+			<arg value="-p" />
+			<arg value="--extensions=php" />
+			<arg value="--report-file=${basedir}/reports/installation.xml" />
+			<arg value="--standard=${basedir}/cms-ruleset/Joomla" />
+			<arg path="${joomlasource}/installation" />
 		</exec>
 	</target>
 
@@ -97,5 +128,5 @@
 	</target>
 
 	<target name="build" description="Runs PHPCS reports for all defined folders."
-		depends="phpcs-admincomponents,phpcs-adminincludes,phpcs-adminmodules,phpcs-sitecomponents,phpcs-siteincludes,phpcs-sitemodules,phpcs-libraries,phpcs-plugins,sanitize" />
+		depends="phpcs-admincomponents,phpcs-adminincludes,phpcs-adminlanguage,phpcs-adminmodules,phpcs-sitecomponents,phpcs-siteincludes,phpcs-sitelanguage,phpcs-sitemodules,phpcs-installation,phpcs-libraries,phpcs-plugins,sanitize" />
 </project>
