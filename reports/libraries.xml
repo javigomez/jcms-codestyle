@@ -34,9 +34,6 @@
  <file name="/libraries/cms/table/corecontent.php" errors="0" warnings="1">
   <warning line="347" column="171" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 170 characters</warning>
  </file>
- <file name="/libraries/joomla/archive/zip.php" errors="0" warnings="1">
-  <warning line="569" column="195" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 194 characters</warning>
- </file>
  <file name="/libraries/joomla/database/driver/mysqli.php" errors="0" warnings="1">
   <warning line="537" column="163" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 162 characters</warning>
  </file>

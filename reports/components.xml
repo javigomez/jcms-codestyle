@@ -600,7 +600,7 @@
   <warning line="157" column="152" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 151 characters</warning>
   <error line="159" column="75" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
   <warning line="189" column="197" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 196 characters</warning>
-  <error line="214" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// checks template image directory for image, if non found default are loaded"</error>
+  <error line="218" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// checks template image directory for image, if non found default are loaded"</error>
  </file>
  <file name="/components/com_content/helpers/query.php" errors="33" warnings="0">
   <error line="25" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
