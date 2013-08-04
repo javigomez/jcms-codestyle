@@ -291,9 +291,9 @@
   <error line="1166" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var $hasWarnings does not match actual variable name &amp;$hasWarnings at position 2</error>
   <warning line="1242" column="211" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 210 characters</warning>
   <warning line="1258" column="248" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 247 characters</warning>
-  <error line="1301" column="36" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//SHOW PROFILE ALL FOR QUERY ' . (int) ($k+1));"</error>
-  <error line="1329" column="6" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "catch (...)\n...{\n"; found "catch (...) ...{\n"</error>
-  <error line="1638" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
+  <error line="1327" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "catch (...)\n...{\n"; found "catch (...) ...{\n"</error>
+  <error line="1347" column="6" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "catch (...)\n...{\n"; found "catch (...) ...{\n"</error>
+  <error line="1656" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
  </file>
  <file name="/plugins/system/languagecode/languagecode.php" errors="11" warnings="0">
   <error line="25" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
