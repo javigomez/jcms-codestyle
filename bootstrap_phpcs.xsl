@@ -16,7 +16,7 @@
 					<h2 class="page-header">Joomla! CMS Codestyle Test Results</h2>
 					<div>
 						<div class="pull-right">
-							<div class="nav-header">Filter Options</div>
+							<h5 class="text-center">Filter Options</h5>
 							<div class="btn-group type-filter active" data-toggle="buttons-checkbox" data-original-title="" style="display: block;">
 								<button type="button" class="btn btn-default error">Error</button>
 								<button type="button" class="btn btn-default warning">Warning</button>
