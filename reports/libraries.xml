@@ -4,12 +4,18 @@
  <file name="/libraries/cms/form/field/captcha.php" errors="0" warnings="1">
   <warning line="77" column="174" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 173 characters</warning>
  </file>
+ <file name="/libraries/cms/form/field/helpsite.php" errors="0" warnings="1">
+  <warning line="59" column="174" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 173 characters</warning>
+ </file>
  <file name="/libraries/cms/form/field/media.php" errors="0" warnings="1">
-  <warning line="228" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
+  <warning line="230" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
  </file>
  <file name="/libraries/cms/form/field/moduleposition.php" errors="0" warnings="2">
   <warning line="74" column="155" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 154 characters</warning>
   <warning line="79" column="165" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 164 characters</warning>
+ </file>
+ <file name="/libraries/cms/form/field/user.php" errors="0" warnings="1">
+  <warning line="63" column="158" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 157 characters</warning>
  </file>
  <file name="/libraries/cms/helper/tags.php" errors="0" warnings="4">
   <warning line="72" column="208" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 207 characters</warning>
@@ -35,7 +41,7 @@
   <warning line="347" column="171" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 170 characters</warning>
  </file>
  <file name="/libraries/joomla/database/driver/mysqli.php" errors="0" warnings="1">
-  <warning line="544" column="163" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 162 characters</warning>
+  <warning line="545" column="163" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 162 characters</warning>
  </file>
  <file name="/libraries/joomla/form/fields/email.php" errors="0" warnings="1">
   <warning line="53" column="152" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 151 characters</warning>
@@ -43,13 +49,10 @@
  <file name="/libraries/joomla/form/fields/rules.php" errors="0" warnings="1">
   <warning line="176" column="156" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 155 characters</warning>
  </file>
- <file name="/libraries/joomla/table/nested.php" errors="0" warnings="1">
-  <warning line="930" column="162" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 161 characters</warning>
- </file>
  <file name="/libraries/legacy/controller/admin.php" errors="0" warnings="1">
   <warning line="252" column="49" source="Joomla.WhiteSpace.OperatorSpacing.NoSpaceAfter" severity="5">Expected 1 space after "+"; 0 found</warning>
  </file>
  <file name="/libraries/legacy/table/menu.php" errors="0" warnings="1">
-  <warning line="147" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
+  <warning line="158" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
  </file>
 </phpcs>

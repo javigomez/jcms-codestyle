@@ -1,38 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../bootstrap_phpcs.xsl"?>
 <phpcs version="1.4.5">
- <file name="/administrator/modules/mod_feed/helper.php" errors="0" warnings="1">
-  <warning line="28" column="9" source="Joomla.Classes.MethodScope.Missing" severity="5">No scope modifier specified for function "getFeed"</warning>
- </file>
- <file name="/administrator/modules/mod_latest/helper.php" errors="1" warnings="0">
-  <error line="26" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var $params does not match actual variable name &amp;$params at position 1</error>
- </file>
- <file name="/administrator/modules/mod_logged/helper.php" errors="1" warnings="0">
-  <error line="24" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var $params does not match actual variable name &amp;$params at position 1</error>
- </file>
- <file name="/administrator/modules/mod_menu/menu.php" errors="4" warnings="1">
-  <error line="88" column="9" source="Joomla.Commenting.FunctionComment.Missing" severity="5">Missing function doc comment</error>
-  <error line="93" column="9" source="Joomla.Commenting.FunctionComment.Missing" severity="5">Missing function doc comment</error>
-  <error line="129" column="9" source="Joomla.Commenting.FunctionComment.WrongStyle" severity="5">You must use "/**" style comments for a function comment</error>
-  <warning line="193" column="187" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 186 characters</warning>
-  <error line="347" column="9" source="Joomla.Commenting.FunctionComment.Missing" severity="5">Missing function doc comment</error>
- </file>
- <file name="/administrator/modules/mod_menu/tmpl/default_enabled.php" errors="8" warnings="0">
-  <error line="180" column="26" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="180" column="26" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
-  <error line="180" column="159" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="180" column="159" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
-  <error line="197" column="85" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="197" column="85" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
-  <error line="203" column="128" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="203" column="128" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- </file>
- <file name="/administrator/modules/mod_stats_admin/helper.php" errors="2" warnings="0">
-  <error line="13" column="1" source="Joomla.Commenting.ClassComment.SpacingBeforeTags" severity="5">There must be exactly one blank line before the tags in class comments</error>
-  <error line="22" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var $params does not match actual variable name &amp;$params at position 1</error>
- </file>
- <file name="/administrator/modules/mod_status/tmpl/default.php" errors="2" warnings="0">
-  <error line="54" column="93" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="54" column="93" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+ <file name="/administrator/modules/mod_feed/tmpl/default.php" errors="5" warnings="0">
+  <error line="28" column="2" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// feed description"</error>
+  <error line="54" column="3" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//image handling"</error>
+  <error line="60" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// feed description"</error>
+  <error line="70" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// feed description"</error>
+  <error line="77" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// feed image"</error>
  </file>
 </phpcs>
