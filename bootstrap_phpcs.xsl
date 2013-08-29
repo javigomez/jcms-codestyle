@@ -15,11 +15,15 @@
 				<div class="container">
 					<h2 class="page-header">Joomla! CMS Codestyle Test Results</h2>
 					<div>
-						<div class="pull-right">
-							<h5 class="text-center">Filter Options</h5>
-							<div class="btn-group type-filter active" data-toggle="buttons-checkbox" data-original-title="" style="display: block;">
-								<button type="button" class="btn btn-default error">Error</button>
-								<button type="button" class="btn btn-default warning">Warning</button>
+						<div class="panel panel-default pull-right">
+							<div class="panel-heading">
+								<h5 class="panel-title">Filter Options</h5>
+							</div>
+							<div class="panel-body">
+								<div class="btn-group type-filter active" data-toggle="buttons-checkbox" data-original-title="" style="display: block;">
+									<button type="button" class="btn btn-default error">Error</button>
+									<button type="button" class="btn btn-default warning">Warning</button>
+						    	</div>
 							</div>
 						</div>
 						<p>This is the result of the codestyle checker with all exceptions removed.  It is designed to aide in bringing the CMS in compliance with the Joomla! Coding Standard.</p>
@@ -51,48 +55,48 @@
 									<td colspan="3">
 										<xsl:for-each select="error">
 											<div class="error">
-												<table class="table table-striped table-bordered table-condensed">
-													<tr>
-														<td colspan="2">
-															<span class="label label-danger">Error</span> <xsl:value-of select="self::node()"/>
-														</td>
-													</tr>
-													<tr>
-														<td><b>Line:</b></td>
-														<td><xsl:value-of select="@line" /></td>
-													</tr>
-													<tr>
-														<td><b>Column:</b></td>
-														<td><xsl:value-of select="@column" /></td>
-													</tr>
-													<tr>
-														<td><b>Source:</b></td>
-														<td><xsl:value-of select="@source" /></td>
-													</tr>
-												</table>
+												<div class="panel panel-danger">
+													<div class="panel-heading">
+														<xsl:value-of select="self::node()"/>
+													</div>
+													<table class="table table-striped table-bordered table-condensed">
+														<tr>
+															<td><b>Line:</b></td>
+															<td><xsl:value-of select="@line" /></td>
+														</tr>
+														<tr>
+															<td><b>Column:</b></td>
+															<td><xsl:value-of select="@column" /></td>
+														</tr>
+														<tr>
+															<td><b>Source:</b></td>
+															<td><xsl:value-of select="@source" /></td>
+														</tr>
+													</table>
+												</div>
 											</div>
 										</xsl:for-each>
 										<xsl:for-each select="warning">
 											<div class="warning">
-												<table class="table table-striped table-bordered table-condensed">
-													<tr>
-														<td colspan="2">
-															<span class="label label-warning">Warning</span> <xsl:value-of select="self::node()"/>
-														</td>
-													</tr>
-													<tr>
-														<td><b>Line:</b></td>
-														<td><xsl:value-of select="@line" /></td>
-													</tr>
-													<tr>
-														<td><b>Column:</b></td>
-														<td><xsl:value-of select="@column" /></td>
-													</tr>
-													<tr>
-														<td><b>Source:</b></td>
-														<td><xsl:value-of select="@source" /></td>
-													</tr>
-												</table>
+												<div class="panel panel-warning">
+													<div class="panel-heading">
+														<xsl:value-of select="self::node()"/>
+													</div>
+													<table class="table table-striped table-bordered table-condensed">
+														<tr>
+															<td><b>Line:</b></td>
+															<td><xsl:value-of select="@line" /></td>
+														</tr>
+														<tr>
+															<td><b>Column:</b></td>
+															<td><xsl:value-of select="@column" /></td>
+														</tr>
+														<tr>
+															<td><b>Source:</b></td>
+															<td><xsl:value-of select="@source" /></td>
+														</tr>
+													</table>
+												</div>
 											</div>
 										</xsl:for-each>
 									</td>
