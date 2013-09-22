@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../bootstrap_phpcs.xsl"?>
-<phpcs version="1.4.5">
+<phpcs version="1.4.6">
  <file name="/libraries/cms/form/field/captcha.php" errors="0" warnings="1">
   <warning line="77" column="174" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 173 characters</warning>
  </file>
  <file name="/libraries/cms/form/field/helpsite.php" errors="0" warnings="1">
-  <warning line="59" column="174" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 173 characters</warning>
+  <warning line="62" column="174" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 173 characters</warning>
  </file>
  <file name="/libraries/cms/form/field/media.php" errors="0" warnings="1">
   <warning line="230" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
@@ -27,9 +27,6 @@
   <warning line="128" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
   <warning line="273" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
  </file>
- <file name="/libraries/cms/html/html.php" errors="0" warnings="1">
-  <warning line="1001" column="152" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 151 characters</warning>
- </file>
  <file name="/libraries/cms/html/sortablelist.php" errors="1" warnings="1">
   <error line="41" column="71" source="PEAR.Functions.ValidDefaultValue.NotAtEnd" severity="5">Arguments with default values must be at the end of the argument list</error>
   <warning line="59" column="159" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 162 characters</warning>
@@ -40,19 +37,20 @@
  <file name="/libraries/cms/table/corecontent.php" errors="0" warnings="1">
   <warning line="347" column="171" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 170 characters</warning>
  </file>
- <file name="/libraries/joomla/database/driver/mysqli.php" errors="0" warnings="1">
-  <warning line="545" column="163" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 162 characters</warning>
+ <file name="/libraries/joomla/database/driver/mysqli.php" errors="0" warnings="2">
+  <warning line="109" column="169" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 168 characters</warning>
+  <warning line="572" column="163" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 162 characters</warning>
  </file>
  <file name="/libraries/joomla/form/fields/email.php" errors="0" warnings="1">
   <warning line="53" column="152" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 151 characters</warning>
  </file>
  <file name="/libraries/joomla/form/fields/rules.php" errors="0" warnings="1">
-  <warning line="176" column="156" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 155 characters</warning>
+  <warning line="168" column="156" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 155 characters</warning>
  </file>
  <file name="/libraries/legacy/controller/admin.php" errors="0" warnings="1">
   <warning line="252" column="49" source="Joomla.WhiteSpace.OperatorSpacing.NoSpaceAfter" severity="5">Expected 1 space after "+"; 0 found</warning>
  </file>
  <file name="/libraries/legacy/table/menu.php" errors="0" warnings="1">
-  <warning line="158" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
+  <warning line="164" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
  </file>
 </phpcs>
