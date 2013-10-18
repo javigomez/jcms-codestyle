@@ -11,12 +11,25 @@
 	<exclude-pattern type="relative">logs/*</exclude-pattern>
 
 	<!-- Exclude 3rd party libraries and Framework code. -->
+	<exclude-pattern type="relative">libraries/compat/password/*</exclude-pattern>
 	<exclude-pattern type="relative">libraries/fof/*</exclude-pattern>
 	<exclude-pattern type="relative">libraries/framework/*</exclude-pattern>
 	<exclude-pattern type="relative">libraries/idna_convert/*</exclude-pattern>
 	<exclude-pattern type="relative">libraries/phputf8/*</exclude-pattern>
 	<exclude-pattern type="relative">libraries/simplepie/*</exclude-pattern>
 	<exclude-pattern type="relative">libraries/phpmailer/*</exclude-pattern>
+
+	<!-- Exclude directories that are symlinked to other repos. -->
+	<exclude-pattern type="relative">administrator/components/com_code/*</exclude-pattern>
+	<exclude-pattern type="relative">administrator/components/com_patchtester/*</exclude-pattern>
+	<exclude-pattern type="relative">administrator/components/com_trackerstats/*</exclude-pattern>
+	<exclude-pattern type="relative">administrator/templates/hathor/html/com_patchtester/*</exclude-pattern>
+	<exclude-pattern type="relative">cli/code.php</exclude-pattern>
+	<exclude-pattern type="relative">cli/sql/*</exclude-pattern>
+	<exclude-pattern type="relative">components/com_code/*</exclude-pattern>
+	<exclude-pattern type="relative">components/com_patchtester/*</exclude-pattern>
+	<exclude-pattern type="relative">components/com_trackerstats/*</exclude-pattern>
+	<exclude-pattern type="relative">modules/mod_trackerstats_users/*</exclude-pattern>
 
 	<exclude-pattern type="relative">administrator/components/com_joomlaupdate/restore.php</exclude-pattern>
 	<exclude-pattern type="relative">configuration.php</exclude-pattern>
