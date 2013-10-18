@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../bootstrap_phpcs.xsl"?>
-<phpcs version="1.4.6">
- <file name="/installation/model/languages.php" errors="0" warnings="3">
-  <warning line="572" column="313" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 312 characters</warning>
-  <warning line="806" column="953" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 952 characters</warning>
-  <warning line="862" column="277" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 276 characters</warning>
- </file>
- <file name="/installation/model/setup.php" errors="0" warnings="1">
-  <warning line="315" column="168" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 167 characters</warning>
+<phpcs version="1.4.7">
+ <file name="/installation/model/languages.php" errors="0" warnings="1">
+  <warning line="552" column="153" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 152 characters</warning>
  </file>
 </phpcs>

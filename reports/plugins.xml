@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../bootstrap_phpcs.xsl"?>
-<phpcs version="1.4.6">
+<phpcs version="1.4.7">
  <file name="/plugins/authentication/gmail/gmail.php" errors="1" warnings="0">
   <error line="75" column="6" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//curl_setopt($curl, CURLOPT_HEADER, 1);"</error>
+ </file>
+ <file name="/plugins/authentication/joomla/joomla.php" errors="1" warnings="0">
+  <error line="230" column="6" source="Squiz.WhiteSpace.ScopeClosingBrace.Indent" severity="5">Closing brace indented incorrectly; expected 4 spaces, found 5</error>
  </file>
  <file name="/plugins/captcha/recaptcha/recaptcha.php" errors="5" warnings="0">
   <error line="89" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$code" missing</error>
@@ -31,9 +34,8 @@
   <error line="33" column="1" source="Joomla.Commenting.FunctionComment.MissingParamComment" severity="5">Missing comment for param "$asset" at position 2</error>
   <error line="34" column="1" source="Joomla.Commenting.FunctionComment.MissingParamComment" severity="5">Missing comment for param "$author" at position 3</error>
  </file>
- <file name="/plugins/editors/codemirror/codemirror.php" errors="0" warnings="2">
-  <warning line="119" column="152" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 151 characters</warning>
-  <warning line="169" column="160" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 159 characters</warning>
+ <file name="/plugins/editors/codemirror/codemirror.php" errors="0" warnings="1">
+  <warning line="120" column="152" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 151 characters</warning>
  </file>
  <file name="/plugins/editors/none/none.php" errors="1" warnings="3">
   <error line="95" column="1" source="Joomla.Commenting.FunctionComment.SpacingBeforeTags" severity="5">There must be exactly one blank line before the tags in function comment</error>
@@ -42,7 +44,7 @@
   <warning line="204" column="220" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 219 characters</warning>
  </file>
  <file name="/plugins/editors/tinymce/tinymce.php" errors="0" warnings="1">
-  <warning line="432" column="193" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 192 characters</warning>
+  <warning line="440" column="193" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 192 characters</warning>
  </file>
  <file name="/plugins/extension/joomla/joomla.php" errors="2" warnings="0">
   <error line="196" column="30" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
@@ -97,10 +99,7 @@
   <error line="348" column="37" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
   <error line="348" column="37" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
  </file>
- <file name="/plugins/quickicon/extensionupdate/extensionupdate.php" errors="14" warnings="0">
-  <error line="33" column="1" source="Joomla.Commenting.FunctionComment.BeforeParamType" severity="5">Expected 3 spaces before variable type</error>
-  <error line="33" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $context at position 1</error>
-  <error line="33" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <file name="/plugins/quickicon/extensionupdate/extensionupdate.php" errors="11" warnings="0">
   <error line="49" column="27" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
   <error line="49" column="27" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
   <error line="51" column="72" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
@@ -113,45 +112,11 @@
   <error line="54" column="57" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
   <error line="54" column="57" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
  </file>
- <file name="/plugins/quickicon/joomlaupdate/joomlaupdate.php" errors="38" warnings="0">
-  <error line="34" column="1" source="Joomla.Commenting.FunctionComment.BeforeParamType" severity="5">Expected 3 spaces before variable type</error>
-  <error line="34" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $context at position 1</error>
-  <error line="34" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
-  <error line="51" column="27" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="51" column="27" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
-  <error line="53" column="59" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="53" column="59" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
-  <error line="53" column="68" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="53" column="68" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
-  <error line="53" column="73" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="53" column="73" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
-  <error line="54" column="69" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
-  <error line="55" column="57" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="55" column="57" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
-  <error line="55" column="79" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
-  <error line="56" column="60" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="56" column="60" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
-  <error line="56" column="76" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
-  <error line="57" column="54" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="57" column="54" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
-  <error line="58" column="68" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
-  <error line="59" column="21" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="59" column="35" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
-  <error line="59" column="51" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="59" column="97" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="59" column="97" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
-  <error line="59" column="113" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
-  <error line="60" column="21" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="60" column="35" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
-  <error line="60" column="51" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="60" column="85" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="60" column="85" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
-  <error line="60" column="107" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
-  <error line="61" column="21" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="61" column="35" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
-  <error line="61" column="51" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="61" column="100" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="61" column="100" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+ <file name="/plugins/quickicon/joomlaupdate/joomlaupdate.php" errors="4" warnings="0">
+  <error line="56" column="61" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+  <error line="56" column="61" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+  <error line="56" column="70" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+  <error line="56" column="70" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
  </file>
  <file name="/plugins/search/categories/categories.php" errors="15" warnings="1">
   <error line="32" column="1" source="Joomla.Commenting.FunctionComment.SpacingBeforeTags" severity="5">There must be exactly one blank line before the tags in function comment</error>
@@ -444,10 +409,8 @@
   <error line="27" column="1" source="Joomla.Commenting.FunctionComment.UselessReturn" severity="5">Constructor and destructor comments must not have a @return tag</error>
   <error line="39" column="16" source="Joomla.Commenting.FunctionComment.WrongStyle" severity="5">You must use "/**" style comments for a function comment</error>
  </file>
- <file name="/plugins/system/remember/remember.php" errors="3" warnings="0">
-  <error line="21" column="9" source="Joomla.Commenting.FunctionComment.Missing" severity="5">Missing function doc comment</error>
-  <error line="66" column="6" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// json_decoded cookie could be any object structure, so make sure the"</error>
-  <error line="97" column="6" source="Joomla.Commenting.SingleComment.TooClose" severity="5">Please consider a blank line preceding your comment</error>
+ <file name="/plugins/system/remember/remember.php" errors="0" warnings="1">
+  <warning line="191" column="155" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 154 characters</warning>
  </file>
  <file name="/plugins/system/sef/sef.php" errors="10" warnings="0">
   <error line="72" column="29" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
@@ -478,6 +441,10 @@
   <error line="91" column="4" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// search terms"</error>
   <error line="93" column="4" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// replacement terms, urlencoded"</error>
   <error line="95" column="4" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// now replace it in together"</error>
+ </file>
+ <file name="/plugins/user/joomla/joomla.php" errors="2" warnings="0">
+  <error line="332" column="53" source="Joomla.WhiteSpace.ConcatenationSpacing.Too much" severity="5">Expected 1 space after concat operator; 2 found</error>
+  <error line="349" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var options does not match actual variable name $options at position 1</error>
  </file>
  <file name="/plugins/user/profile/fields/tos.php" errors="0" warnings="1">
   <warning line="82" column="223" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 222 characters</warning>

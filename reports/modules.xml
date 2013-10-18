@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../bootstrap_phpcs.xsl"?>
-<phpcs version="1.4.6">
+<phpcs version="1.4.7">
  <file name="/modules/mod_articles_archive/helper.php" errors="2" warnings="0">
   <error line="24" column="16" source="Joomla.Commenting.FunctionComment.WrongStyle" severity="5">You must use "/**" style comments for a function comment</error>
   <error line="26" column="3" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//get database"</error>
@@ -16,8 +16,8 @@
   <error line="14" column="98" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
  </file>
  <file name="/modules/mod_articles_categories/tmpl/default_items.php" errors="2" warnings="0">
-  <error line="31" column="101" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="31" column="101" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+  <error line="33" column="101" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+  <error line="33" column="101" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
  </file>
  <file name="/modules/mod_articles_category/helper.php" errors="46" warnings="0">
   <error line="12" column="23" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
@@ -438,8 +438,12 @@
  </file>
  <file name="/modules/mod_tags_popular/helper.php" errors="3" warnings="0">
   <error line="21" column="16" source="Joomla.Commenting.FunctionComment.Missing" severity="5">Missing function doc comment</error>
-  <error line="34" column="13" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="35" column="13" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+  <error line="45" column="13" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+  <error line="46" column="13" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+ </file>
+ <file name="/modules/mod_tags_popular/tmpl/cloud.php" errors="2" warnings="0">
+  <error line="46" column="62" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+  <error line="46" column="62" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
  </file>
  <file name="/modules/mod_tags_similar/helper.php" errors="4" warnings="2">
   <error line="21" column="16" source="Joomla.Commenting.FunctionComment.Missing" severity="5">Missing function doc comment</error>
