@@ -427,6 +427,19 @@
  <file name="/plugins/twofactorauth/totp/totp.php" errors="1" warnings="0">
   <error line="259" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
  </file>
+ <file name="/plugins/twofactorauth/yubikey/tmpl/form.php" errors="1" warnings="0">
+  <error line="45" column="14" source="Joomla.WhiteSpace.SuperfluousWhitespace" severity="5">Please end your files with an empty line.</error>
+ </file>
+ <file name="/plugins/twofactorauth/yubikey/yubikey.php" errors="8" warnings="0">
+  <error line="17" column="1" source="Joomla.Commenting.ClassComment.MissingTag" severity="5">Missing @since tag in class comment</error>
+  <error line="52" column="14" source="Joomla.WhiteSpace.SpaceAfterCast.Incorrect" severity="5">Cast statements must be followed by a single space; expected "(int) $this" but found "(int)$this"</error>
+  <error line="79" column="10" source="Joomla.WhiteSpace.SpaceAfterCast.Incorrect" severity="5">Cast statements must be followed by a single space; expected "(object) array" but found "(object)array"</error>
+  <error line="108" column="1" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed" severity="5">Tabs must be used to indent lines; spaces are not allowed</error>
+  <error line="109" column="1" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed" severity="5">Tabs must be used to indent lines; spaces are not allowed</error>
+  <error line="110" column="1" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed" severity="5">Tabs must be used to indent lines; spaces are not allowed</error>
+  <error line="196" column="16" source="Joomla.WhiteSpace.SpaceAfterCast.Incorrect" severity="5">Cast statements must be followed by a single space; expected "(object) array" but found "(object)array"</error>
+  <error line="211" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ </file>
  <file name="/plugins/user/contactcreator/contactcreator.php" errors="13" warnings="0">
   <error line="31" column="9" source="Joomla.Commenting.FunctionComment.Missing" severity="5">Missing function doc comment</error>
   <error line="35" column="18" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// if the user wasn't stored we don't resync"</error>

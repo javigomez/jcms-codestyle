@@ -5,7 +5,7 @@
   <warning line="62" column="174" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 173 characters</warning>
  </file>
  <file name="/libraries/cms/form/field/media.php" errors="0" warnings="1">
-  <warning line="377" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
+  <warning line="375" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
  </file>
  <file name="/libraries/cms/form/field/moduleposition.php" errors="0" warnings="2">
   <warning line="151" column="161" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 160 characters</warning>
@@ -31,7 +31,7 @@
   <warning line="273" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
  </file>
  <file name="/libraries/cms/html/searchtools.php" errors="0" warnings="1">
-  <warning line="125" column="168" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 167 characters</warning>
+  <warning line="137" column="168" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 167 characters</warning>
  </file>
  <file name="/libraries/cms/html/select.php" errors="1" warnings="0">
   <error line="146" column="85" source="PEAR.Functions.ValidDefaultValue.NotAtEnd" severity="5">Arguments with default values must be at the end of the argument list</error>
@@ -46,16 +46,42 @@
  <file name="/libraries/cms/table/corecontent.php" errors="0" warnings="1">
   <warning line="347" column="171" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 170 characters</warning>
  </file>
+ <file name="/libraries/cms/ucm/type.php" errors="2" warnings="0">
+  <error line="164" column="3" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//$query-&gt;where($this-&gt;db-&gt;quoteName('ct.type_alias') . ' = ' . (int) $typeAlias);"</error>
+  <error line="183" column="1" source="Joomla.WhiteSpace.SuperfluousWhitespace" severity="5">Functions and classes must not contain multiple empty lines in a row; found 2 empty lines</error>
+ </file>
+ <file name="/libraries/joomla/crypt/crypt.php" errors="1" warnings="0">
+  <error line="327" column="5" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n"; found "if(...)\n"</error>
+ </file>
  <file name="/libraries/joomla/database/driver/mysqli.php" errors="0" warnings="2">
   <warning line="109" column="169" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 168 characters</warning>
   <warning line="572" column="163" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 162 characters</warning>
  </file>
  <file name="/libraries/joomla/form/fields/rules.php" errors="0" warnings="1">
-  <warning line="273" column="156" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 155 characters</warning>
+  <warning line="271" column="156" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 155 characters</warning>
  </file>
  <file name="/libraries/joomla/image/image.php" errors="0" warnings="2">
   <warning line="701" column="155" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 154 characters</warning>
   <warning line="705" column="157" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 156 characters</warning>
+ </file>
+ <file name="/libraries/legacy/model/admin.php" errors="17" warnings="0">
+  <error line="173" column="24" source="Joomla.Classes.InstantiateNewClasses.New class" severity="5">Instanciating new classes without parameters does not require brackets.</error>
+  <error line="281" column="25" source="Joomla.Classes.InstantiateNewClasses.New class" severity="5">Instanciating new classes without parameters does not require brackets.</error>
+  <error line="335" column="25" source="Joomla.Classes.InstantiateNewClasses.New class" severity="5">Instanciating new classes without parameters does not require brackets.</error>
+  <error line="436" column="25" source="Joomla.Classes.InstantiateNewClasses.New class" severity="5">Instanciating new classes without parameters does not require brackets.</error>
+  <error line="490" column="25" source="Joomla.Classes.InstantiateNewClasses.New class" severity="5">Instanciating new classes without parameters does not require brackets.</error>
+  <error line="1141" column="18" source="Joomla.Classes.InstantiateNewClasses.New class" severity="5">Instanciating new classes without parameters does not require brackets.</error>
+  <error line="1213" column="1" source="Joomla.Commenting.FunctionComment.BeforeParamType" severity="5">Expected 3 spaces before variable type</error>
+  <error line="1214" column="1" source="Joomla.Commenting.FunctionComment.BeforeParamType" severity="5">Expected 3 spaces before variable type</error>
+  <error line="1215" column="1" source="Joomla.Commenting.FunctionComment.BeforeParamType" severity="5">Expected 3 spaces before variable type</error>
+  <error line="1216" column="1" source="Joomla.Commenting.FunctionComment.BeforeParamType" severity="5">Expected 3 spaces before variable type</error>
+  <error line="1216" column="1" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$table" missing</error>
+  <error line="1226" column="25" source="Joomla.Classes.InstantiateNewClasses.New class" severity="5">Instanciating new classes without parameters does not require brackets.</error>
+  <error line="1235" column="1" source="Joomla.Commenting.FunctionComment.BeforeParamType" severity="5">Expected 3 spaces before variable type</error>
+  <error line="1288" column="1" source="Joomla.Commenting.FunctionComment.BeforeParamType" severity="5">Expected 3 spaces before variable type</error>
+  <error line="1288" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+  <error line="1289" column="1" source="Joomla.Commenting.FunctionComment.BeforeParamType" severity="5">Expected 3 spaces before variable type</error>
+  <error line="1290" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
  </file>
  <file name="/libraries/legacy/table/menu.php" errors="0" warnings="1">
   <warning line="164" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>

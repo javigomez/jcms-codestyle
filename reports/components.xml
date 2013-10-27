@@ -58,78 +58,18 @@
   <error line="36" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
   <error line="48" column="2" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// view is always the first element of the array"</error>
  </file>
- <file name="/components/com_config/config.php" errors="2" warnings="0">
-  <error line="23" column="21" source="Joomla.Classes.InstantiateNewClasses.New class" severity="5">Instanciating new classes without parameters does not require brackets.</error>
-  <error line="30" column="1" source="Joomla.WhiteSpace.SuperfluousWhitespace" severity="5">Additional whitespace found at end of file</error>
- </file>
- <file name="/components/com_config/controller/canceladmin.php" errors="6" warnings="0">
-  <error line="46" column="1" source="Joomla.WhiteSpace.SuperfluousWhitespace" severity="5">Functions and classes must not contain multiple empty lines in a row; found 2 empty lines</error>
-  <error line="59" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if(...)\n...{...}\n...else\n"</error>
-  <error line="66" column="34" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
-  <error line="66" column="34" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
-  <error line="66" column="35" source="Generic.NamingConventions.UpperCaseConstantName.ConstantNotUpperCase" severity="5">Constants must be uppercase; expected EDIT but found edit</error>
-  <error line="66" column="57" source="Joomla.WhiteSpace.SemicolonSpacing.Incorrect" severity="5">Space found before semicolon; expected "context;" but found "context ;"</error>
- </file>
- <file name="/components/com_config/controller/cmsbase.php" errors="2" warnings="0">
-  <error line="29" column="1" source="Joomla.Commenting.FunctionComment.SpacingBeforeTags" severity="5">There must be exactly one blank line before the tags in function comment</error>
-  <error line="48" column="1" source="Joomla.WhiteSpace.SuperfluousWhitespace" severity="5">Please end your files with an empty line.</error>
- </file>
- <file name="/components/com_config/controller/display.php" errors="1" warnings="0">
-  <error line="29" column="1" source="Joomla.Commenting.FunctionComment.SpacingBeforeTags" severity="5">There must be exactly one blank line before the tags in function comment</error>
- </file>
- <file name="/components/com_config/controller/helper.php" errors="3" warnings="0">
-  <error line="39" column="9" source="Joomla.Commenting.FunctionComment.WrongStyle" severity="5">You must use "/**" style comments for a function comment</error>
-  <error line="111" column="31" source="Joomla.WhiteSpace.ConcatenationSpacing.Too much" severity="5">Expected 1 space after concat operator; 2 found</error>
-  <error line="124" column="1" source="Joomla.WhiteSpace.SuperfluousWhitespace" severity="5">Please end your files with an empty line.</error>
- </file>
- <file name="/components/com_config/controller/update.php" errors="9" warnings="0">
-  <error line="23" column="1" source="Joomla.Commenting.FunctionComment.SpacingBeforeTags" severity="5">There must be exactly one blank line before the tags in function comment</error>
-  <error line="33" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if(...)\n...{...}\n...else\n"</error>
-  <error line="40" column="3" source="Joomla.Commenting.SingleComment.TooClose" severity="5">Please consider a blank line preceding your comment</error>
-  <error line="43" column="52" source="Joomla.WhiteSpace.SemicolonSpacing.Incorrect" severity="5">Space found before semicolon; expected "$viewName;" but found "$viewName ;"</error>
-  <error line="69" column="9" source="Joomla.Commenting.FunctionComment.WrongStyle" severity="5">You must use "/**" style comments for a function comment</error>
-  <error line="89" column="4" source="Joomla.Commenting.SingleComment.MultiLine" severity="5">Please consider the /* */ style for comments that span over multiple lines.</error>
-  <error line="90" column="4" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//@todo fix this location"</error>
-  <error line="91" column="4" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//$app-&gt;setUserState('com_config.config.global.data', $data);"</error>
-  <error line="103" column="1" source="Joomla.WhiteSpace.SuperfluousWhitespace" severity="5">Please end your files with an empty line.</error>
- </file>
- <file name="/components/com_config/model/cms.php" errors="3" warnings="0">
-  <error line="156" column="1" source="Joomla.Commenting.FunctionComment.SpacingBeforeTags" severity="5">There must be exactly one blank line before the tags in function comment</error>
-  <error line="177" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$config" missing</error>
-  <error line="285" column="1" source="Joomla.WhiteSpace.SuperfluousWhitespace" severity="5">Please end your files with an empty line.</error>
+ <file name="/components/com_config/config.php" errors="1" warnings="0">
+  <error line="29" column="1" source="Joomla.WhiteSpace.SuperfluousWhitespace" severity="5">Additional whitespace found at end of file</error>
  </file>
  <file name="/components/com_config/model/form.php" errors="1" warnings="0">
-  <error line="164" column="3" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//Legacy support to be removed in 4.0.  -- failing here"</error>
+  <error line="165" column="3" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//Legacy support to be removed in 4.0.  -- failing here"</error>
  </file>
- <file name="/components/com_config/model/templates.php" errors="5" warnings="0">
-  <error line="28" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
-  <error line="72" column="1" source="Joomla.WhiteSpace.SuperfluousWhitespace" severity="5">Functions and classes must not contain multiple empty lines in a row; found 2 empty lines</error>
-  <error line="83" column="1" source="Joomla.Commenting.FunctionComment.SpacingBeforeTags" severity="5">There must be exactly one blank line before the tags in function comment</error>
-  <error line="84" column="1" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$group" missing</error>
-  <error line="88" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
+ <file name="/components/com_config/model/templates.php" errors="1" warnings="0">
+  <error line="27" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
  </file>
- <file name="/components/com_config/view/cmsform.php" errors="6" warnings="0">
-  <error line="164" column="3" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//Legacy support to be removed in 4.0.  -- failing here"</error>
-  <error line="168" column="1" source="Joomla.WhiteSpace.SuperfluousWhitespace" severity="5">Whitespace found at end of line</error>
-  <error line="169" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// test -- prob with previous -- tempory solution"</error>
-  <error line="174" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// test"</error>
-  <error line="175" column="1" source="Joomla.WhiteSpace.SuperfluousWhitespace" severity="5">Whitespace found at end of line</error>
-  <error line="175" column="1" source="Joomla.WhiteSpace.SuperfluousWhitespace" severity="5">Functions and classes must not contain multiple empty lines in a row; found 2 empty lines</error>
- </file>
- <file name="/components/com_config/view/config/html.php" errors="1" warnings="0">
-  <error line="30" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- </file>
- <file name="/components/com_config/view/html/cms.php" errors="2" warnings="1">
-  <error line="64" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if(...)\n...{...}\n...else\n"</error>
-  <error line="105" column="3" source="Joomla.Commenting.SingleComment.MultiLine" severity="5">Please consider the /* */ style for comments that span over multiple lines.</error>
-  <warning line="116" column="17" source="Joomla.WhiteSpace.OperatorSpacing.NoSpaceAfter" severity="5">Expected 1 space after "="; 0 found</warning>
- </file>
- <file name="/components/com_config/view/json.php" errors="2" warnings="0">
-  <error line="28" column="1" source="Joomla.Commenting.FunctionComment.ExtraParamComment" severity="5">Superfluous doc comment at position 1</error>
-  <error line="39" column="1" source="Joomla.WhiteSpace.SuperfluousWhitespace" severity="5">Please end your files with an empty line.</error>
- </file>
- <file name="/components/com_config/view/templates/html.php" errors="1" warnings="0">
-  <error line="29" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <file name="/components/com_config/view/cms/html.php" errors="1" warnings="1">
+  <error line="107" column="3" source="Joomla.Commenting.SingleComment.MultiLine" severity="5">Please consider the /* */ style for comments that span over multiple lines.</error>
+  <warning line="118" column="17" source="Joomla.WhiteSpace.OperatorSpacing.NoSpaceAfter" severity="5">Expected 1 space after "="; 0 found</warning>
  </file>
  <file name="/components/com_contact/controller.php" errors="6" warnings="2">
   <error line="24" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var If does not match actual variable name $cachable at position 1</error>
@@ -722,52 +662,11 @@
   <error line="118" column="3" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//echo nl2br(str_replace('#__','jos_',$query));"</error>
   <error line="152" column="12" source="Joomla.Commenting.FunctionComment.WrongStyle" severity="5">You must use "/**" style comments for a function comment</error>
  </file>
- <file name="/components/com_content/models/article.php" errors="9" warnings="1">
-  <error line="34" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
-  <error line="64" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $pk at position 1</error>
-  <error line="64" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
-  <error line="64" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
-  <error line="91" column="8" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// use created if modified is 0"</error>
-  <error line="114" column="6" source="Joomla.Commenting.SingleComment.TooClose" severity="5">Please consider a blank line preceding your comment</error>
-  <warning line="117" column="157" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 156 characters</warning>
-  <error line="259" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var Optional does not match actual variable name $pk at position 1</error>
-  <error line="259" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
-  <error line="280" column="9" source="Joomla.Commenting.FunctionComment.Missing" severity="5">Missing function doc comment</error>
+ <file name="/components/com_content/models/article.php" errors="0" warnings="1">
+  <warning line="120" column="157" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 156 characters</warning>
  </file>
- <file name="/components/com_content/models/articles.php" errors="32" warnings="1">
-  <error line="24" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
-  <error line="24" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var An does not match actual variable name $config at position 1</error>
-  <error line="24" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
-  <error line="57" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$ordering" missing</error>
-  <error line="57" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$direction" missing</error>
-  <error line="62" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
-  <error line="96" column="4" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// filter on published for those who do not have edit or edit.state rights."</error>
-  <error line="102" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// process show_noauth parameter"</error>
-  <error line="122" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
-  <error line="124" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
-  <error line="153" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
-  <error line="169" column="6" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// use created if modified is 0"</error>
-  <error line="172" column="6" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// use created if publish_up is 0"</error>
-  <error line="188" column="4" source="Joomla.Commenting.SingleComment.MultiLine" severity="5">Please consider the /* */ style for comments that span over multiple lines.</error>
-  <error line="219" column="4" source="Joomla.Commenting.SingleComment.TooClose" severity="5">Please consider a blank line preceding your comment</error>
-  <warning line="222" column="155" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 154 characters</warning>
-  <error line="245" column="4" source="Joomla.Commenting.SingleComment.TooClose" severity="5">Please consider a blank line preceding your comment</error>
-  <error line="253" column="4" source="Joomla.Commenting.SingleComment.TooClose" severity="5">Please consider a blank line preceding your comment</error>
-  <error line="279" column="4" source="Joomla.Commenting.SingleComment.TooClose" severity="5">Please consider a blank line preceding your comment</error>
-  <error line="332" column="5" source="Joomla.Commenting.SingleComment.TooClose" severity="5">Please consider a blank line preceding your comment</error>
-  <error line="465" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// process the filter for list views with user-entered filters"</error>
-  <error line="470" column="4" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// clean filter variable"</error>
-  <error line="489" column="14" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// default to 'title' if parameter is not valid"</error>
-  <error line="512" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
-  <error line="539" column="4" source="Joomla.Commenting.SingleComment.MultiLine" severity="5">Please consider the /* */ style for comments that span over multiple lines.</error>
-  <error line="544" column="1" source="Joomla.ControlStructures.MultiLineCondition.CloseBracketNewLine" severity="5">Closing parenthesis of a multi-line IF statement must be on the same line</error>
-  <error line="546" column="5" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// create an array of just the params set to 'use_article'"</error>
-  <error line="554" column="7" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// if the article has a value, use it"</error>
-  <error line="557" column="8" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// get the value from the article"</error>
-  <error line="562" column="8" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// otherwise, use the global value"</error>
-  <error line="568" column="5" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// merge the selected article params"</error>
-  <error line="582" column="4" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// get display date"</error>
-  <error line="649" column="9" source="Joomla.Commenting.FunctionComment.WrongStyle" severity="5">You must use "/**" style comments for a function comment</error>
+ <file name="/components/com_content/models/articles.php" errors="0" warnings="1">
+  <warning line="240" column="155" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 154 characters</warning>
  </file>
  <file name="/components/com_content/models/categories.php" errors="18" warnings="0">
   <error line="39" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$ordering" missing</error>
