@@ -5,7 +5,7 @@
   <error line="75" column="6" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//curl_setopt($curl, CURLOPT_HEADER, 1);"</error>
  </file>
  <file name="/plugins/authentication/joomla/joomla.php" errors="1" warnings="0">
-  <error line="230" column="6" source="Squiz.WhiteSpace.ScopeClosingBrace.Indent" severity="5">Closing brace indented incorrectly; expected 4 spaces, found 5</error>
+  <error line="194" column="6" source="Squiz.WhiteSpace.ScopeClosingBrace.Indent" severity="5">Closing brace indented incorrectly; expected 4 spaces, found 5</error>
  </file>
  <file name="/plugins/captcha/recaptcha/recaptcha.php" errors="5" warnings="0">
   <error line="89" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$code" missing</error>
@@ -44,7 +44,7 @@
   <warning line="204" column="220" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 219 characters</warning>
  </file>
  <file name="/plugins/editors/tinymce/tinymce.php" errors="0" warnings="1">
-  <warning line="440" column="193" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 192 characters</warning>
+  <warning line="452" column="193" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 192 characters</warning>
  </file>
  <file name="/plugins/extension/joomla/joomla.php" errors="2" warnings="0">
   <error line="196" column="30" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
@@ -209,22 +209,22 @@
   <error line="148" column="3" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//sqlsrv changes"</error>
  </file>
  <file name="/plugins/system/debug/debug.php" errors="10" warnings="6">
-  <error line="181" column="1" source="Joomla.ControlStructures.MultiLineCondition.CloseBracketNewLine" severity="5">Closing parenthesis of a multi-line IF statement must be on the same line</error>
-  <error line="727" column="19" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// how heavy should the string length count: 0 - 1"</error>
-  <warning line="869" column="221" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 220 characters</warning>
-  <warning line="926" column="153" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 152 characters</warning>
-  <warning line="966" column="165" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 164 characters</warning>
-  <error line="1126" column="1" source="Joomla.Commenting.FunctionComment.SpacingBeforeTags" severity="5">There must be exactly one blank line before the tags in function comment</error>
-  <warning line="1160" column="164" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 163 characters</warning>
-  <error line="1167" column="1" source="Joomla.Commenting.FunctionComment.MissingParamComment" severity="5">Missing comment for param "$table" at position 1</error>
-  <error line="1167" column="1" source="Joomla.Commenting.FunctionComment.SpacingBeforeTags" severity="5">There must be exactly one blank line before the tags in function comment</error>
-  <error line="1168" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters $table (1) and $hasWarnings (2) do not align</error>
-  <error line="1168" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var $hasWarnings does not match actual variable name &amp;$hasWarnings at position 2</error>
-  <warning line="1244" column="211" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 210 characters</warning>
-  <warning line="1260" column="248" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 247 characters</warning>
-  <error line="1329" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "catch (...)\n...{\n"; found "catch (...) ...{\n"</error>
-  <error line="1349" column="6" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "catch (...)\n...{\n"; found "catch (...) ...{\n"</error>
-  <error line="1658" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
+  <error line="189" column="1" source="Joomla.ControlStructures.MultiLineCondition.CloseBracketNewLine" severity="5">Closing parenthesis of a multi-line IF statement must be on the same line</error>
+  <error line="735" column="19" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// how heavy should the string length count: 0 - 1"</error>
+  <warning line="877" column="221" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 220 characters</warning>
+  <warning line="934" column="153" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 152 characters</warning>
+  <warning line="974" column="165" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 164 characters</warning>
+  <error line="1134" column="1" source="Joomla.Commenting.FunctionComment.SpacingBeforeTags" severity="5">There must be exactly one blank line before the tags in function comment</error>
+  <warning line="1168" column="164" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 163 characters</warning>
+  <error line="1175" column="1" source="Joomla.Commenting.FunctionComment.MissingParamComment" severity="5">Missing comment for param "$table" at position 1</error>
+  <error line="1175" column="1" source="Joomla.Commenting.FunctionComment.SpacingBeforeTags" severity="5">There must be exactly one blank line before the tags in function comment</error>
+  <error line="1176" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters $table (1) and $hasWarnings (2) do not align</error>
+  <error line="1176" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var $hasWarnings does not match actual variable name &amp;$hasWarnings at position 2</error>
+  <warning line="1252" column="211" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 210 characters</warning>
+  <warning line="1268" column="248" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 247 characters</warning>
+  <error line="1339" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "catch (...)\n...{\n"; found "catch (...) ...{\n"</error>
+  <error line="1359" column="6" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "catch (...)\n...{\n"; found "catch (...) ...{\n"</error>
+  <error line="1668" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
  </file>
  <file name="/plugins/system/languagecode/languagecode.php" errors="12" warnings="0">
   <error line="25" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
@@ -410,7 +410,7 @@
   <error line="39" column="16" source="Joomla.Commenting.FunctionComment.WrongStyle" severity="5">You must use "/**" style comments for a function comment</error>
  </file>
  <file name="/plugins/system/remember/remember.php" errors="0" warnings="1">
-  <warning line="191" column="155" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 154 characters</warning>
+  <warning line="200" column="155" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 154 characters</warning>
  </file>
  <file name="/plugins/system/sef/sef.php" errors="10" warnings="0">
   <error line="72" column="29" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
@@ -427,18 +427,8 @@
  <file name="/plugins/twofactorauth/totp/totp.php" errors="1" warnings="0">
   <error line="259" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
  </file>
- <file name="/plugins/twofactorauth/yubikey/tmpl/form.php" errors="1" warnings="0">
-  <error line="45" column="14" source="Joomla.WhiteSpace.SuperfluousWhitespace" severity="5">Please end your files with an empty line.</error>
- </file>
- <file name="/plugins/twofactorauth/yubikey/yubikey.php" errors="8" warnings="0">
-  <error line="17" column="1" source="Joomla.Commenting.ClassComment.MissingTag" severity="5">Missing @since tag in class comment</error>
-  <error line="52" column="14" source="Joomla.WhiteSpace.SpaceAfterCast.Incorrect" severity="5">Cast statements must be followed by a single space; expected "(int) $this" but found "(int)$this"</error>
-  <error line="79" column="10" source="Joomla.WhiteSpace.SpaceAfterCast.Incorrect" severity="5">Cast statements must be followed by a single space; expected "(object) array" but found "(object)array"</error>
-  <error line="108" column="1" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed" severity="5">Tabs must be used to indent lines; spaces are not allowed</error>
-  <error line="109" column="1" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed" severity="5">Tabs must be used to indent lines; spaces are not allowed</error>
-  <error line="110" column="1" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed" severity="5">Tabs must be used to indent lines; spaces are not allowed</error>
-  <error line="196" column="16" source="Joomla.WhiteSpace.SpaceAfterCast.Incorrect" severity="5">Cast statements must be followed by a single space; expected "(object) array" but found "(object)array"</error>
-  <error line="211" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <file name="/plugins/twofactorauth/yubikey/yubikey.php" errors="1" warnings="0">
+  <error line="228" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
  </file>
  <file name="/plugins/user/contactcreator/contactcreator.php" errors="13" warnings="0">
   <error line="31" column="9" source="Joomla.Commenting.FunctionComment.Missing" severity="5">Missing function doc comment</error>
@@ -456,8 +446,8 @@
   <error line="95" column="4" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// now replace it in together"</error>
  </file>
  <file name="/plugins/user/joomla/joomla.php" errors="2" warnings="0">
-  <error line="332" column="53" source="Joomla.WhiteSpace.ConcatenationSpacing.Too much" severity="5">Expected 1 space after concat operator; 2 found</error>
-  <error line="349" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var options does not match actual variable name $options at position 1</error>
+  <error line="293" column="53" source="Joomla.WhiteSpace.ConcatenationSpacing.Too much" severity="5">Expected 1 space after concat operator; 2 found</error>
+  <error line="310" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var options does not match actual variable name $options at position 1</error>
  </file>
  <file name="/plugins/user/profile/fields/tos.php" errors="0" warnings="1">
   <warning line="82" column="223" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 222 characters</warning>
