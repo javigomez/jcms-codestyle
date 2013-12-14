@@ -5,10 +5,10 @@
 		<html>
 			<head>
 				<title>Joomla! CMS PHPCS Results</title>
-				<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
+				<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" />
 				<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 				<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-				<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+				<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 				<script src="/jcms-codestyle/assets/scripts.js"></script>
 			</head>
 			<body>
