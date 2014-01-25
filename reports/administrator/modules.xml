@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../bootstrap_phpcs.xsl"?>
-<phpcs version="1.4.7">
- <file name="/administrator/modules/mod_feed/tmpl/default.php" errors="5" warnings="0">
-  <error line="28" column="2" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// feed description"</error>
-  <error line="54" column="3" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//image handling"</error>
-  <error line="60" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// feed description"</error>
-  <error line="70" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// feed description"</error>
-  <error line="77" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// feed image"</error>
- </file>
- <file name="/administrator/modules/mod_login/helper.php" errors="1" warnings="0">
-  <error line="60" column="16" source="Joomla.Commenting.FunctionComment.Missing" severity="5">Missing function doc comment</error>
- </file>
+<phpcs version="1.5.1">
+<file name="/administrator/modules/mod_feed/tmpl/default.php" errors="5" warnings="0">
+ <error line="28" column="2" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// feed description"</error>
+ <error line="54" column="3" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//image handling"</error>
+ <error line="60" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// feed description"</error>
+ <error line="70" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// feed description"</error>
+ <error line="77" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// feed image"</error>
+</file>
+<file name="/administrator/modules/mod_login/helper.php" errors="1" warnings="0">
+ <error line="60" column="16" source="Joomla.Commenting.FunctionComment.Missing" severity="5">Missing function doc comment</error>
+</file>
 </phpcs>
