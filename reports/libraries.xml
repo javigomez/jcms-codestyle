@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../bootstrap_phpcs.xsl"?>
 <phpcs version="1.5.2">
 <file name="/libraries/cms/form/field/media.php" errors="0" warnings="1">
- <warning line="375" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
+ <warning line="382" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
 </file>
 <file name="/libraries/cms/form/field/moduleposition.php" errors="0" warnings="2">
  <warning line="151" column="161" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 160 characters</warning>
@@ -14,11 +14,12 @@
 <file name="/libraries/cms/helper/route.php" errors="1" warnings="0">
  <error line="250" column="65" source="PEAR.Functions.ValidDefaultValue.NotAtEnd" severity="5">Arguments with default values must be at the end of the argument list</error>
 </file>
-<file name="/libraries/cms/helper/tags.php" errors="0" warnings="4">
+<file name="/libraries/cms/helper/tags.php" errors="0" warnings="5">
  <warning line="72" column="208" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 207 characters</warning>
  <warning line="76" column="177" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 176 characters</warning>
- <warning line="521" column="166" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 165 characters</warning>
- <warning line="523" column="161" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 160 characters</warning>
+ <warning line="522" column="166" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 165 characters</warning>
+ <warning line="524" column="161" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 160 characters</warning>
+ <warning line="532" column="396" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 395 characters</warning>
 </file>
 <file name="/libraries/cms/html/formbehavior.php" errors="0" warnings="3">
  <warning line="60" column="169" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 168 characters</warning>
