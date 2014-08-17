@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../bootstrap_phpcs.xsl"?>
-<phpcs version="1.5.2">
-<file name="/administrator/modules/mod_feed/tmpl/default.php" errors="1" warnings="0">
- <error line="60" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// feed description"</error>
-</file>
+<phpcs version="1.5.4">
 </phpcs>

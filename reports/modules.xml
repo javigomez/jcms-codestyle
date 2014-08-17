@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../bootstrap_phpcs.xsl"?>
-<phpcs version="1.5.2">
+<phpcs version="1.5.4">
 <file name="/modules/mod_articles_categories/tmpl/default.php" errors="2" warnings="0">
  <error line="14" column="98" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
  <error line="14" column="98" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
@@ -52,7 +52,7 @@
  <error line="52" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
  <error line="56" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
  <error line="66" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="79" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
+ <error line="80" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
 </file>
 <file name="/modules/mod_menu/tmpl/default_component.php" errors="1" warnings="0">
  <error line="38" column="2" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// window.open"</error>
@@ -74,12 +74,16 @@
 <file name="/modules/mod_syndicate/helper.php" errors="1" warnings="0">
  <error line="21" column="16" source="Joomla.Commenting.FunctionComment.Missing" severity="5">Missing function doc comment</error>
 </file>
+<file name="/modules/mod_tags_popular/helper.php" errors="0" warnings="2">
+ <warning line="91" column="159" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 158 characters</warning>
+ <warning line="92" column="165" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 164 characters</warning>
+</file>
 <file name="/modules/mod_tags_popular/tmpl/cloud.php" errors="2" warnings="0">
  <error line="46" column="62" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
  <error line="46" column="62" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
 </file>
 <file name="/modules/mod_tags_similar/helper.php" errors="0" warnings="1">
- <warning line="87" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
+ <warning line="88" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
 </file>
 <file name="/modules/mod_users_latest/helper.php" errors="3" warnings="0">
  <error line="17" column="1" source="Joomla.Commenting.ClassComment.MissingTag" severity="5">Missing @since tag in class comment</error>

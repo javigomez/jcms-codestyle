@@ -1,51 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../bootstrap_phpcs.xsl"?>
-<phpcs version="1.5.2">
-<file name="/plugins/editors/codemirror/codemirror.php" errors="0" warnings="1">
- <warning line="120" column="152" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 151 characters</warning>
-</file>
-<file name="/plugins/editors/none/none.php" errors="0" warnings="2">
- <warning line="136" column="152" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 151 characters</warning>
- <warning line="155" column="153" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 152 characters</warning>
-</file>
+<phpcs version="1.5.4">
 <file name="/plugins/editors/tinymce/tinymce.php" errors="0" warnings="1">
- <warning line="453" column="193" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 192 characters</warning>
+ <warning line="224" column="168" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 167 characters</warning>
 </file>
-<file name="/plugins/search/categories/categories.php" errors="0" warnings="1">
- <warning line="162" column="168" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 167 characters</warning>
-</file>
-<file name="/plugins/search/tags/tags.php" errors="1" warnings="0">
- <error line="174" column="6" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "foreach (...)\n...{\n"; found "foreach(...)\n...{\n"</error>
-</file>
-<file name="/plugins/system/debug/debug.php" errors="0" warnings="7">
- <warning line="645" column="172" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 171 characters</warning>
- <warning line="891" column="221" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 220 characters</warning>
- <warning line="948" column="153" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 152 characters</warning>
- <warning line="988" column="165" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 164 characters</warning>
- <warning line="1184" column="164" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 163 characters</warning>
- <warning line="1270" column="211" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 210 characters</warning>
- <warning line="1286" column="248" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 247 characters</warning>
-</file>
-<file name="/plugins/system/languagefilter/languagefilter.php" errors="0" warnings="1">
- <warning line="461" column="175" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 174 characters</warning>
-</file>
-<file name="/plugins/user/profile/fields/tos.php" errors="0" warnings="1">
- <warning line="82" column="223" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 222 characters</warning>
-</file>
-<file name="/plugins/user/profile/profile.php" errors="14" warnings="0">
- <error line="40" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var $subject does not match actual variable name &amp;$subject at position 1</error>
- <error line="52" column="1" source="Joomla.Commenting.FunctionComment.SpacingBeforeTags" severity="5">There must be exactly one blank line before the tags in function comment</error>
- <error line="53" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="122" column="16" source="Joomla.Commenting.FunctionComment.WrongStyle" severity="5">You must use "/**" style comments for a function comment</error>
- <error line="144" column="16" source="Joomla.Commenting.FunctionComment.WrongStyle" severity="5">You must use "/**" style comments for a function comment</error>
- <error line="156" column="16" source="Joomla.Commenting.FunctionComment.Missing" severity="5">Missing function doc comment</error>
- <error line="169" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="169" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="169" column="1" source="Joomla.Commenting.FunctionComment.SpacingBeforeTags" severity="5">There must be exactly one blank line before the tags in function comment</error>
- <error line="172" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="209" column="3" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//Change fields description when displayed in front-end or back-end profile editing"</error>
- <error line="250" column="1" source="Joomla.ControlStructures.MultiLineCondition.CloseBracketNewLine" severity="5">Closing parenthesis of a multi-line IF statement must be on the same line</error>
- <error line="336" column="9" source="Joomla.Commenting.FunctionComment.WrongStyle" severity="5">You must use "/**" style comments for a function comment</error>
- <error line="360" column="121" source="Squiz.Operators.IncrementDecrementUsage.NoBrackets" severity="5">Increment and decrement operators must be bracketed when used in string concatenation</error>
+<file name="/plugins/system/debug/debug.php" errors="0" warnings="1">
+ <warning line="657" column="172" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 171 characters</warning>
 </file>
 </phpcs>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../bootstrap_phpcs.xsl"?>
-<phpcs version="1.5.2">
+<phpcs version="1.5.4">
 <file name="/administrator/components/com_admin/views/help/view.html.php" errors="3" warnings="0">
  <error line="51" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$tpl" missing</error>
  <error line="53" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
@@ -40,10 +40,13 @@
  <warning line="76" column="152" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 151 characters</warning>
 </file>
 <file name="/administrator/components/com_banners/views/tracks/view.html.php" errors="0" warnings="1">
- <warning line="105" column="215" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 214 characters</warning>
+ <warning line="108" column="215" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 214 characters</warning>
 </file>
 <file name="/administrator/components/com_banners/views/tracks/view.raw.php" errors="0" warnings="1">
  <warning line="45" column="189" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 188 characters</warning>
+</file>
+<file name="/administrator/components/com_categories/categories.php" errors="1" warnings="0">
+ <error line="15" column="1" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//If you have a url like this: com_categories&amp;view=categories&amp;extension=com_example.example_cat"</error>
 </file>
 <file name="/administrator/components/com_categories/controllers/category.php" errors="2" warnings="0">
  <error line="32" column="1" source="Joomla.Commenting.FunctionComment.BeforeParamType" severity="5">Expected 3 spaces before variable type</error>
@@ -63,14 +66,14 @@
  <error line="53" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
  <error line="76" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
  <warning line="376" column="328" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 327 characters</warning>
- <error line="437" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="685" column="12" source="Joomla.Commenting.FunctionComment.WrongStyle" severity="5">You must use "/**" style comments for a function comment</error>
- <warning line="769" column="189" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 188 characters</warning>
- <warning line="965" column="189" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 188 characters</warning>
- <error line="1062" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$group" missing</error>
- <error line="1062" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$client_id" missing</error>
- <error line="1066" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
- <error line="1111" column="9" source="Joomla.Commenting.FunctionComment.WrongStyle" severity="5">You must use "/**" style comments for a function comment</error>
+ <error line="433" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="681" column="12" source="Joomla.Commenting.FunctionComment.WrongStyle" severity="5">You must use "/**" style comments for a function comment</error>
+ <warning line="765" column="189" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 188 characters</warning>
+ <warning line="961" column="189" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 188 characters</warning>
+ <error line="1058" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$group" missing</error>
+ <error line="1058" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$client_id" missing</error>
+ <error line="1062" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
+ <error line="1107" column="9" source="Joomla.Commenting.FunctionComment.WrongStyle" severity="5">You must use "/**" style comments for a function comment</error>
 </file>
 <file name="/administrator/components/com_categories/models/fields/categoryedit.php" errors="7" warnings="0">
  <error line="48" column="3" source="Joomla.Commenting.SingleComment.TooClose" severity="5">Please consider a blank line preceding your comment</error>
@@ -86,8 +89,8 @@
  <error line="120" column="5" source="Joomla.Commenting.SingleComment.MultiLine" severity="5">Please consider the /* */ style for comments that span over multiple lines.</error>
  <error line="132" column="4" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//$categoryOld = $this-&gt;form-&gt;getValue($name);"</error>
  <error line="135" column="5" source="Joomla.Commenting.SingleComment.MultiLine" severity="5">Please consider the /* */ style for comments that span over multiple lines.</error>
- <error line="138" column="5" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...)\n...{...}\n...elseif\n				(...)\n"</error>
- <error line="140" column="6" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...)\n...{...}\n...elseif\n				(...)\n"</error>
+ <error line="138" column="5" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...)\n...{...}\n...elseif\n\t\t\t\t(...)\n"</error>
+ <error line="140" column="6" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...)\n...{...}\n...elseif\n\t\t\t\t(...)\n"</error>
 </file>
 <file name="/administrator/components/com_categories/models/fields/modal/category.php" errors="2" warnings="6">
  <error line="32" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
@@ -145,6 +148,10 @@
 <file name="/administrator/components/com_config/helper/config.php" errors="2" warnings="0">
  <error line="60" column="1" source="Joomla.Commenting.FunctionComment.MissingParamComment" severity="5">Missing comment for param "$authCheck" at position 1</error>
  <error line="89" column="1" source="Joomla.Commenting.FunctionComment.MissingParamComment" severity="5">Missing comment for param "$components" at position 1</error>
+</file>
+<file name="/administrator/components/com_config/model/application.php" errors="2" warnings="0">
+ <error line="203" column="21" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+ <error line="203" column="21" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
 </file>
 <file name="/administrator/components/com_config/model/field/filters.php" errors="0" warnings="8">
  <warning line="62" column="162" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 161 characters</warning>
@@ -212,36 +219,13 @@
  <error line="110" column="115" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
  <error line="111" column="14" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
 </file>
-<file name="/administrator/components/com_contact/models/contact.php" errors="29" warnings="0">
- <error line="221" column="4" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//$this-&gt;table-&gt;ordering	= 1;"</error>
- <error line="302" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="321" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="321" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="323" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="346" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="346" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="349" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="361" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="361" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="363" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="398" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="398" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="400" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="445" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="473" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $data at position 1</error>
- <error line="473" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="475" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="578" column="1" source="Joomla.Commenting.FunctionComment.MissingParamComment" severity="5">Missing comment for param "$table" at position 1</error>
- <error line="580" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="623" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="623" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="625" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="636" column="12" source="Joomla.Commenting.FunctionComment.Missing" severity="5">Missing function doc comment</error>
- <error line="645" column="4" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// force to array (perhaps move to $this-&gt;loadFormData())"</error>
- <error line="683" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="685" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="731" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var $parent_id does not match actual variable name $category_id at position 1</error>
- <error line="733" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var $title does not match actual variable name $name at position 3</error>
+<file name="/administrator/components/com_contact/models/contact.php" errors="6" warnings="0">
+ <error line="222" column="4" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//$this-&gt;table-&gt;ordering	= 1;"</error>
+ <error line="480" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $data at position 1</error>
+ <error line="480" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="646" column="12" source="Joomla.Commenting.FunctionComment.Missing" severity="5">Missing function doc comment</error>
+ <error line="738" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var $parent_id does not match actual variable name $category_id at position 1</error>
+ <error line="740" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var $title does not match actual variable name $name at position 3</error>
 </file>
 <file name="/administrator/components/com_contact/models/contacts.php" errors="6" warnings="0">
  <error line="17" column="1" source="Joomla.Commenting.ClassComment.MissingTag" severity="5">Missing @since tag in class comment</error>
@@ -262,17 +246,16 @@
  <warning line="151" column="222" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 221 characters</warning>
  <error line="156" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// class='required' for client side validation"</error>
 </file>
-<file name="/administrator/components/com_contact/tables/contact.php" errors="10" warnings="0">
+<file name="/administrator/components/com_contact/tables/contact.php" errors="9" warnings="0">
  <error line="13" column="1" source="Joomla.Commenting.ClassComment.SpacingBeforeTags" severity="5">There must be exactly one blank line before the tags in class comments</error>
  <error line="15" column="1" source="Joomla.Commenting.ClassComment.MissingTag" severity="5">Missing @since tag in class comment</error>
- <error line="36" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="61" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var True does not match actual variable name $updateNulls at position 1</error>
- <error line="61" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="186" column="4" source="Joomla.Commenting.SingleComment.MultiLine" severity="5">Please consider the /* */ style for comments that span over multiple lines.</error>
- <error line="192" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "foreach (...)\n...{\n"; found "foreach(...)\n...{\n"</error>
- <error line="194" column="5" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n"; found "if (...) "</error>
- <error line="194" column="24" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// ignore blank keywords"</error>
- <error line="198" column="49" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// put array back together delimited by ", ""</error>
+ <error line="44" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var True does not match actual variable name $updateNulls at position 1</error>
+ <error line="44" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="169" column="4" source="Joomla.Commenting.SingleComment.MultiLine" severity="5">Please consider the /* */ style for comments that span over multiple lines.</error>
+ <error line="175" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "foreach (...)\n...{\n"; found "foreach(...)\n...{\n"</error>
+ <error line="177" column="5" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n"; found "if (...) "</error>
+ <error line="177" column="24" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// ignore blank keywords"</error>
+ <error line="181" column="49" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// put array back together delimited by ", ""</error>
 </file>
 <file name="/administrator/components/com_contact/views/contact/tmpl/edit_params.php" errors="4" warnings="0">
  <error line="18" column="38" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
@@ -294,21 +277,21 @@
 <file name="/administrator/components/com_contact/views/contacts/tmpl/default.php" errors="17" warnings="0">
  <error line="12" column="38" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
  <error line="12" column="38" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="134" column="77" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="134" column="77" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="135" column="75" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="135" column="75" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+ <error line="136" column="78" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+ <error line="136" column="78" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
  <error line="137" column="78" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
  <error line="137" column="78" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="138" column="77" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="138" column="77" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="140" column="113" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="140" column="113" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="188" column="91" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="188" column="91" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="203" column="85" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="203" column="85" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="240" column="9" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//Load the batch processing form."</error>
+ <error line="139" column="78" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+ <error line="139" column="78" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+ <error line="140" column="78" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+ <error line="140" column="78" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+ <error line="142" column="113" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+ <error line="142" column="113" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+ <error line="190" column="91" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+ <error line="190" column="91" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+ <error line="205" column="85" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+ <error line="205" column="85" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+ <error line="242" column="9" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//Load the batch processing form."</error>
 </file>
 <file name="/administrator/components/com_contact/views/contacts/tmpl/modal.php" errors="4" warnings="0">
  <error line="14" column="38" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
@@ -359,56 +342,55 @@
  <warning line="115" column="228" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 227 characters</warning>
  <warning line="120" column="158" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 157 characters</warning>
 </file>
-<file name="/administrator/components/com_content/models/article.php" errors="49" warnings="0">
- <error line="97" column="4" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//$table-&gt;ordering	= 1;"</error>
- <error line="146" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="146" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="148" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="167" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="167" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="169" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="196" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var A does not match actual variable name $table at position 1</error>
- <error line="196" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="196" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="198" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="228" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $type at position 1</error>
- <error line="228" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="229" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters The (1) and A (2) do not align</error>
- <error line="229" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var A does not match actual variable name $prefix at position 2</error>
- <error line="229" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="230" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters A (2) and Configuration (3) do not align</error>
- <error line="230" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var Configuration does not match actual variable name $config at position 3</error>
- <error line="242" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $pk at position 1</error>
- <error line="242" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="242" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="305" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="305" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="307" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="334" column="4" source="Joomla.Commenting.SingleComment.TooClose" severity="5">Please consider a blank line preceding your comment</error>
- <error line="336" column="4" source="Joomla.Commenting.SingleComment.TooClose" severity="5">Please consider a blank line preceding your comment</error>
- <error line="351" column="1" source="Joomla.ControlStructures.MultiLineCondition.CloseBracketNewLine" severity="5">Closing parenthesis of a multi-line IF statement must be on the same line</error>
- <error line="387" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="418" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $data at position 1</error>
- <error line="418" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="420" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="541" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $pks at position 1</error>
- <error line="541" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="542" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $value at position 2</error>
- <error line="582" column="5" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// first, we find out which of our new featured articles are already featured."</error>
- <error line="587" column="5" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//echo $query;"</error>
- <error line="592" column="5" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// we diff the arrays to get a list of the articles that are newly featured"</error>
- <error line="630" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var A does not match actual variable name $table at position 1</error>
- <error line="630" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="630" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="632" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="642" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$form" missing</error>
- <error line="642" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$data" missing</error>
- <error line="642" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$group" missing</error>
- <error line="647" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="659" column="4" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// force to array (perhaps move to $this-&gt;loadFormData())"</error>
- <error line="693" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$group" missing</error>
- <error line="693" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$client_id" missing</error>
- <error line="697" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
+<file name="/administrator/components/com_content/models/article.php" errors="48" warnings="0">
+ <error line="100" column="4" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//$table-&gt;ordering	= 1;"</error>
+ <error line="149" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="149" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="151" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="170" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="170" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="172" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="199" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var A does not match actual variable name $table at position 1</error>
+ <error line="199" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="199" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="201" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="231" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $type at position 1</error>
+ <error line="231" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="232" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters The (1) and A (2) do not align</error>
+ <error line="232" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var A does not match actual variable name $prefix at position 2</error>
+ <error line="232" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="233" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters A (2) and Configuration (3) do not align</error>
+ <error line="233" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var Configuration does not match actual variable name $config at position 3</error>
+ <error line="245" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $pk at position 1</error>
+ <error line="245" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="245" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="308" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="308" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="310" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="337" column="4" source="Joomla.Commenting.SingleComment.TooClose" severity="5">Please consider a blank line preceding your comment</error>
+ <error line="339" column="4" source="Joomla.Commenting.SingleComment.TooClose" severity="5">Please consider a blank line preceding your comment</error>
+ <error line="354" column="1" source="Joomla.ControlStructures.MultiLineCondition.CloseBracketNewLine" severity="5">Closing parenthesis of a multi-line IF statement must be on the same line</error>
+ <error line="397" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="428" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $data at position 1</error>
+ <error line="428" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="430" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="551" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $pks at position 1</error>
+ <error line="551" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="552" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $value at position 2</error>
+ <error line="592" column="5" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// first, we find out which of our new featured articles are already featured."</error>
+ <error line="597" column="5" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//echo $query;"</error>
+ <error line="602" column="5" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// we diff the arrays to get a list of the articles that are newly featured"</error>
+ <error line="640" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var A does not match actual variable name $table at position 1</error>
+ <error line="640" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="640" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="642" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="652" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$form" missing</error>
+ <error line="652" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$data" missing</error>
+ <error line="652" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$group" missing</error>
+ <error line="657" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="699" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$group" missing</error>
+ <error line="699" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$client_id" missing</error>
+ <error line="703" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
 </file>
 <file name="/administrator/components/com_content/models/feature.php" errors="15" warnings="0">
  <error line="19" column="1" source="Joomla.Commenting.ClassComment.MissingTag" severity="5">Missing @since tag in class comment</error>
@@ -427,102 +409,13 @@
  <error line="38" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
  <error line="39" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
 </file>
-<file name="/administrator/components/com_content/models/fields/modal/article.php" errors="91" warnings="4">
+<file name="/administrator/components/com_content/models/fields/modal/article.php" errors="2" warnings="4">
  <error line="32" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="50" column="42" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="50" column="42" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="50" column="52" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="50" column="52" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="51" column="44" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="51" column="44" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="51" column="54" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="51" column="54" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="52" column="44" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="52" column="44" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="52" column="54" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="52" column="54" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="56" column="29" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="56" column="29" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="56" column="39" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="56" column="39" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="61" column="29" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="61" column="29" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="61" column="39" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="61" column="39" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="76" column="67" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="76" column="67" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="76" column="154" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="76" column="154" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <warning line="76" column="160" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 159 characters</warning>
- <error line="90" column="124" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="90" column="124" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="94" column="35" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="94" column="35" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="134" column="59" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="134" column="59" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="134" column="69" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="134" column="69" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="134" column="86" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="134" column="86" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="134" column="93" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="134" column="93" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="135" column="54" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="135" column="54" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="135" column="103" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="135" column="103" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="135" column="115" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="135" column="115" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="135" column="121" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="135" column="121" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="135" column="129" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="135" column="129" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="135" column="154" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="135" column="154" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="135" column="239" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="135" column="239" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="135" column="259" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="135" column="259" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <warning line="135" column="267" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 266 characters</warning>
- <error line="140" column="40" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="140" column="40" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="140" column="66" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="140" column="66" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="140" column="164" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="140" column="193" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="140" column="193" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="140" column="240" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="140" column="240" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <warning line="140" column="315" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 314 characters</warning>
- <error line="146" column="28" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="146" column="28" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="146" column="38" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="146" column="38" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="146" column="59" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="146" column="59" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="146" column="85" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="146" column="85" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="146" column="122" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="146" column="122" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="146" column="132" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="146" column="132" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <warning line="146" column="210" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 209 characters</warning>
+ <warning line="76" column="164" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 163 characters</warning>
+ <warning line="135" column="283" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 282 characters</warning>
+ <warning line="140" column="324" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 323 characters</warning>
+ <warning line="146" column="222" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 221 characters</warning>
  <error line="151" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// class='required' for client side validation"</error>
- <error line="158" column="40" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="158" column="40" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="158" column="50" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="158" column="50" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="158" column="57" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="158" column="57" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="158" column="64" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="158" column="64" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="158" column="74" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="158" column="74" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="158" column="86" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="158" column="86" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="158" column="98" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="158" column="98" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="158" column="105" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="158" column="105" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
 </file>
 <file name="/administrator/components/com_content/tables/featured.php" errors="5" warnings="0">
  <error line="13" column="1" source="Joomla.Commenting.ClassComment.SpacingBeforeTags" severity="5">There must be exactly one blank line before the tags in class comments</error>
@@ -575,8 +468,8 @@
 <file name="/administrator/components/com_content/views/article/view.html.php" errors="3" warnings="1">
  <error line="27" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$tpl" missing</error>
  <error line="29" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
- <error line="70" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
- <warning line="81" column="158" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 157 characters</warning>
+ <error line="71" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
+ <warning line="82" column="158" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 157 characters</warning>
 </file>
 <file name="/administrator/components/com_content/views/articles/tmpl/default.php" errors="14" warnings="0">
  <error line="114" column="31" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//??"</error>
@@ -4035,13 +3928,6 @@
  <error line="29" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
  <error line="34" column="3" source="Joomla.Commenting.SingleComment.MultiLine" severity="5">Please consider the /* */ style for comments that span over multiple lines.</error>
 </file>
-<file name="/administrator/components/com_login/models/login.php" errors="5" warnings="0">
- <error line="27" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
- <error line="37" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// check for return URL from the request first"</error>
- <error line="78" column="12" source="Joomla.Commenting.SingleComment.Inline" severity="5">Please put your comment on a separate line *preceding* your code; found "// Found it"</error>
- <error line="109" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var $name does not match actual variable name $module at position 1</error>
- <error line="109" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
-</file>
 <file name="/administrator/components/com_login/views/login/tmpl/default.php" errors="3" warnings="0">
  <error line="14" column="1" source="Joomla.Commenting.SingleComment.MultiLine" severity="5">Please consider the /* */ style for comments that span over multiple lines.</error>
  <error line="22" column="1" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//Get any other modules in the login position."</error>
@@ -4064,21 +3950,16 @@
 </file>
 <file name="/administrator/components/com_media/controllers/file.json.php" errors="5" warnings="1">
  <warning line="31" column="2" source="Joomla.Classes.MethodScope.Missing" severity="5">No scope modifier specified for function "upload"</warning>
- <error line="55" column="1" source="Joomla.ControlStructures.MultiLineCondition.StartWithBoolean" severity="5">Each line in a multi-line IF statement must begin with a boolean operator</error>
- <error line="56" column="1" source="Joomla.ControlStructures.MultiLineCondition.StartWithBoolean" severity="5">Each line in a multi-line IF statement must begin with a boolean operator</error>
- <error line="57" column="1" source="Joomla.ControlStructures.MultiLineCondition.StartWithBoolean" severity="5">Each line in a multi-line IF statement must begin with a boolean operator</error>
  <error line="58" column="1" source="Joomla.ControlStructures.MultiLineCondition.StartWithBoolean" severity="5">Each line in a multi-line IF statement must begin with a boolean operator</error>
- <error line="59" column="1" source="Joomla.ControlStructures.MultiLineCondition.CloseBracketNewLine" severity="5">Closing parenthesis of a multi-line IF statement must be on the same line</error>
+ <error line="59" column="1" source="Joomla.ControlStructures.MultiLineCondition.StartWithBoolean" severity="5">Each line in a multi-line IF statement must begin with a boolean operator</error>
+ <error line="60" column="1" source="Joomla.ControlStructures.MultiLineCondition.StartWithBoolean" severity="5">Each line in a multi-line IF statement must begin with a boolean operator</error>
+ <error line="61" column="1" source="Joomla.ControlStructures.MultiLineCondition.StartWithBoolean" severity="5">Each line in a multi-line IF statement must begin with a boolean operator</error>
+ <error line="62" column="1" source="Joomla.ControlStructures.MultiLineCondition.CloseBracketNewLine" severity="5">Closing parenthesis of a multi-line IF statement must be on the same line</error>
 </file>
-<file name="/administrator/components/com_media/controllers/file.php" errors="5" warnings="3">
- <error line="64" column="1" source="Joomla.ControlStructures.MultiLineCondition.StartWithBoolean" severity="5">Each line in a multi-line IF statement must begin with a boolean operator</error>
- <error line="68" column="1" source="Joomla.ControlStructures.MultiLineCondition.CloseBracketNewLine" severity="5">Closing parenthesis of a multi-line IF statement must be on the same line</error>
- <error line="156" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="156" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="224" column="5" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// filename is not safe"</error>
- <warning line="240" column="152" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 151 characters</warning>
- <warning line="262" column="153" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 152 characters</warning>
- <warning line="275" column="157" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 156 characters</warning>
+<file name="/administrator/components/com_media/controllers/file.php" errors="0" warnings="3">
+ <warning line="258" column="152" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 151 characters</warning>
+ <warning line="280" column="153" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 152 characters</warning>
+ <warning line="293" column="157" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 156 characters</warning>
 </file>
 <file name="/administrator/components/com_media/controllers/folder.php" errors="0" warnings="3">
  <warning line="96" column="153" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 152 characters</warning>
@@ -4239,12 +4120,12 @@
  <error line="32" column="31" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
 </file>
 <file name="/administrator/components/com_menus/controllers/item.php" errors="1" warnings="5">
- <warning line="258" column="152" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 151 characters</warning>
- <warning line="271" column="152" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 151 characters</warning>
- <warning line="281" column="152" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 151 characters</warning>
- <warning line="300" column="153" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 152 characters</warning>
- <error line="379" column="3" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//Save the data in the session."</error>
- <warning line="393" column="2" source="Joomla.Classes.MethodScope.Missing" severity="5">No scope modifier specified for function "getParentItem"</warning>
+ <warning line="260" column="152" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 151 characters</warning>
+ <warning line="273" column="152" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 151 characters</warning>
+ <warning line="283" column="152" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 151 characters</warning>
+ <warning line="302" column="153" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 152 characters</warning>
+ <error line="383" column="3" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//Save the data in the session."</error>
+ <warning line="397" column="2" source="Joomla.Classes.MethodScope.Missing" severity="5">No scope modifier specified for function "getParentItem"</warning>
 </file>
 <file name="/administrator/components/com_menus/controllers/items.php" errors="24" warnings="0">
  <error line="21" column="9" source="Joomla.Commenting.FunctionComment.Missing" severity="5">Missing function doc comment</error>
@@ -4364,57 +4245,53 @@
  <error line="77" column="90" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
  <warning line="77" column="152" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 151 characters</warning>
 </file>
-<file name="/administrator/components/com_menus/models/item.php" errors="50" warnings="0">
+<file name="/administrator/components/com_menus/models/item.php" errors="46" warnings="0">
  <error line="51" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var A does not match actual variable name $record at position 1</error>
  <error line="51" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
  <error line="51" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
  <error line="53" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="73" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var A does not match actual variable name $record at position 1</error>
- <error line="73" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="73" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="75" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="314" column="4" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//$table-&gt;ordering	= 1;"</error>
- <error line="524" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="525" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="527" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="539" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
- <error line="539" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="539" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="540" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="550" column="4" source="Joomla.Commenting.SingleComment.TooClose" severity="5">Please consider a blank line preceding your comment</error>
- <error line="585" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="601" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="612" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="612" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="614" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="764" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="772" column="3" source="Joomla.Commenting.SingleComment.MultiLine" severity="5">Please consider the /* */ style for comments that span over multiple lines.</error>
- <error line="774" column="3" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//sqlsrv changes for modulelink to menu manager"</error>
- <error line="806" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="806" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="808" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="820" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="820" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="823" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="836" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="863" column="4" source="Joomla.Commenting.SingleComment.TooClose" severity="5">Please consider a blank line preceding your comment</error>
- <error line="879" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="879" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="879" column="1" source="Joomla.Commenting.FunctionComment.SpacingBeforeTags" severity="5">There must be exactly one blank line before the tags in function comment</error>
- <error line="880" column="1" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$group" missing</error>
- <error line="882" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="1097" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="1160" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="1162" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="1345" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="1347" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="1370" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var $pks does not match actual variable name &amp;$pks at position 1</error>
- <error line="1371" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="1373" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="1449" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="1514" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$group" missing</error>
- <error line="1514" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$client_id" missing</error>
- <error line="1518" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
+ <error line="290" column="4" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//$table-&gt;ordering	= 1;"</error>
+ <error line="500" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="501" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="503" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="515" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
+ <error line="515" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="515" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="516" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="526" column="4" source="Joomla.Commenting.SingleComment.TooClose" severity="5">Please consider a blank line preceding your comment</error>
+ <error line="561" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="577" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="588" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="588" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="590" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="740" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="748" column="3" source="Joomla.Commenting.SingleComment.MultiLine" severity="5">Please consider the /* */ style for comments that span over multiple lines.</error>
+ <error line="750" column="3" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//sqlsrv changes for modulelink to menu manager"</error>
+ <error line="782" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="782" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="784" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="796" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="796" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="799" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="812" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="839" column="4" source="Joomla.Commenting.SingleComment.TooClose" severity="5">Please consider a blank line preceding your comment</error>
+ <error line="855" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="855" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="855" column="1" source="Joomla.Commenting.FunctionComment.SpacingBeforeTags" severity="5">There must be exactly one blank line before the tags in function comment</error>
+ <error line="856" column="1" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$group" missing</error>
+ <error line="858" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="1073" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="1136" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="1138" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="1321" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="1323" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="1346" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var $pks does not match actual variable name &amp;$pks at position 1</error>
+ <error line="1347" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="1349" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="1425" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="1490" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$group" missing</error>
+ <error line="1490" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$client_id" missing</error>
+ <error line="1494" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
 </file>
 <file name="/administrator/components/com_menus/models/items.php" errors="3" warnings="2">
  <error line="64" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$ordering" missing</error>
@@ -4658,43 +4535,22 @@
  <error line="34" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
  <error line="79" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
 </file>
-<file name="/administrator/components/com_messages/models/message.php" errors="36" warnings="0">
+<file name="/administrator/components/com_messages/models/message.php" errors="15" warnings="0">
  <error line="32" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
- <error line="89" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $type at position 1</error>
- <error line="89" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="89" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="90" column="1" source="Joomla.Commenting.FunctionComment.ParameterNamesNotAligned" severity="5">The variable names for parameters The (1) and A (2) do not align</error>
- <error line="90" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters The (1) and A (2) do not align</error>
- <error line="90" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var A does not match actual variable name $prefix at position 2</error>
- <error line="91" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
- <error line="91" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters A (2) and Configuration (3) do not align</error>
- <error line="91" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var Configuration does not match actual variable name $config at position 3</error>
- <error line="92" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="103" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
- <error line="103" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $pk at position 1</error>
- <error line="103" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="103" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="104" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="114" column="5" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="117" column="6" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="124" column="31" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="124" column="31" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="138" column="7" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="140" column="39" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="140" column="39" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="155" column="30" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="155" column="30" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="172" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="173" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
- <error line="173" column="1" source="Joomla.Commenting.FunctionComment.ParameterNamesNotAligned" severity="5">The variable names for parameters $data (1) and $loadData (2) do not align</error>
- <error line="173" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters $data (1) and $loadData (2) do not align</error>
- <error line="173" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="174" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="192" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="250" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $data at position 1</error>
- <error line="250" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="315" column="101" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="315" column="101" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+ <error line="52" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="92" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $type at position 1</error>
+ <error line="92" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="93" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters The (1) and A (2) do not align</error>
+ <error line="93" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var A does not match actual variable name $prefix at position 2</error>
+ <error line="94" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters A (2) and Configuration (3) do not align</error>
+ <error line="94" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var Configuration does not match actual variable name $config at position 3</error>
+ <error line="108" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $pk at position 1</error>
+ <error line="108" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="185" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="185" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="267" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $data at position 1</error>
+ <error line="267" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="267" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
 </file>
 <file name="/administrator/components/com_messages/models/messages.php" errors="10" warnings="0">
  <error line="24" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
@@ -4881,69 +4737,12 @@
  <error line="177" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
  <error line="321" column="3" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//echo nl2br(str_replace('#__','jos_',$query));"</error>
 </file>
-<file name="/administrator/components/com_modules/models/positions.php" errors="62" warnings="0">
- <error line="24" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
+<file name="/administrator/components/com_modules/models/positions.php" errors="5" warnings="0">
  <error line="24" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var An does not match actual variable name $config at position 1</error>
  <error line="24" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="41" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$ordering" missing</error>
- <error line="41" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$direction" missing</error>
- <error line="47" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
- <error line="53" column="58" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="53" column="58" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="56" column="57" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="56" column="57" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="62" column="60" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="62" column="60" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="65" column="56" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="65" column="56" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="79" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="104" column="48" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="104" column="48" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="104" column="54" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="104" column="54" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="107" column="36" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="107" column="36" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="107" column="58" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="107" column="58" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="107" column="92" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="107" column="92" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="134" column="39" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="134" column="39" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="134" column="53" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="134" column="53" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="134" column="72" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="134" column="72" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="136" column="5" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="139" column="6" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="141" column="25" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="141" column="25" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="141" column="44" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="141" column="44" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="142" column="27" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="142" column="27" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="142" column="46" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="142" column="46" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="142" column="68" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="142" column="68" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="142" column="82" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="142" column="82" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="147" column="8" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="150" column="63" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="150" column="63" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="150" column="82" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="150" column="82" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="150" column="95" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="150" column="95" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="151" column="83" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="151" column="83" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="152" column="9" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="157" column="8" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="163" column="9" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="174" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="179" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="181" column="5" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="190" column="5" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="206" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="42" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$ordering" missing</error>
+ <error line="42" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$direction" missing</error>
+ <error line="48" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
 </file>
 <file name="/administrator/components/com_modules/models/select.php" errors="7" warnings="0">
  <error line="21" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$ordering" missing</error>
@@ -5139,7 +4938,7 @@
 <file name="/administrator/components/com_newsfeeds/models/fields/newsfeeds.php" errors="1" warnings="0">
  <error line="34" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
 </file>
-<file name="/administrator/components/com_newsfeeds/models/newsfeed.php" errors="45" warnings="0">
+<file name="/administrator/components/com_newsfeeds/models/newsfeed.php" errors="44" warnings="0">
  <error line="98" column="4" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//$this-&gt;table-&gt;ordering	= 1;"</error>
  <error line="133" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
  <error line="133" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var A does not match actual variable name $record at position 1</error>
@@ -5182,9 +4981,8 @@
  <error line="483" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
  <error line="484" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
  <error line="494" column="12" source="Joomla.Commenting.FunctionComment.Missing" severity="5">Missing function doc comment</error>
- <error line="503" column="4" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// force to array (perhaps move to $this-&gt;loadFormData())"</error>
- <error line="540" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var $parent_id does not match actual variable name $category_id at position 1</error>
- <error line="542" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var $title does not match actual variable name $name at position 3</error>
+ <error line="536" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var $parent_id does not match actual variable name $category_id at position 1</error>
+ <error line="538" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var $title does not match actual variable name $name at position 3</error>
 </file>
 <file name="/administrator/components/com_newsfeeds/models/newsfeeds.php" errors="8" warnings="0">
  <error line="24" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
@@ -5199,14 +4997,14 @@
 <file name="/administrator/components/com_newsfeeds/tables/newsfeed.php" errors="10" warnings="0">
  <error line="13" column="1" source="Joomla.Commenting.ClassComment.SpacingBeforeTags" severity="5">There must be exactly one blank line before the tags in class comments</error>
  <error line="15" column="1" source="Joomla.Commenting.ClassComment.MissingTag" severity="5">Missing @since tag in class comment</error>
- <error line="96" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// clean up keywords -- eliminate extra spaces between phrases"</error>
- <error line="100" column="4" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// only process if not empty"</error>
- <error line="108" column="5" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else\n"</error>
- <error line="108" column="24" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// ignore blank keywords"</error>
- <error line="112" column="49" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// put array back together delimited by ", ""</error>
- <error line="115" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// clean up description -- eliminate quotes and &lt;&gt; brackets"</error>
- <error line="118" column="4" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// only process if not empty"</error>
- <error line="129" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="70" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// clean up keywords -- eliminate extra spaces between phrases"</error>
+ <error line="74" column="4" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// only process if not empty"</error>
+ <error line="82" column="5" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else\n"</error>
+ <error line="82" column="24" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// ignore blank keywords"</error>
+ <error line="86" column="49" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// put array back together delimited by ", ""</error>
+ <error line="89" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// clean up description -- eliminate quotes and &lt;&gt; brackets"</error>
+ <error line="92" column="4" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// only process if not empty"</error>
+ <error line="103" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
 </file>
 <file name="/administrator/components/com_newsfeeds/views/newsfeed/tmpl/edit_params.php" errors="4" warnings="0">
  <error line="18" column="38" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
@@ -5270,115 +5068,45 @@
 <file name="/administrator/components/com_plugins/models/fields/pluginordering.php" errors="0" warnings="1">
  <warning line="43" column="162" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 161 characters</warning>
 </file>
-<file name="/administrator/components/com_plugins/models/plugin.php" errors="108" warnings="0">
- <error line="50" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="51" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
- <error line="51" column="1" source="Joomla.Commenting.FunctionComment.ParameterNamesNotAligned" severity="5">The variable names for parameters $data (1) and $loadData (2) do not align</error>
- <error line="51" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters $data (1) and $loadData (2) do not align</error>
- <error line="51" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="52" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="76" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="82" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="100" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="108" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="121" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $pk at position 1</error>
- <error line="121" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="121" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="140" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="156" column="38" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="156" column="38" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="156" column="42" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="156" column="42" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="156" column="57" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="156" column="57" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="156" column="61" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="156" column="61" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="156" column="77" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="156" column="77" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="156" column="81" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="156" column="81" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="156" column="97" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="156" column="97" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="158" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...} ...else "</error>
- <error line="172" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $type at position 1</error>
- <error line="172" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="172" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="173" column="1" source="Joomla.Commenting.FunctionComment.ParameterNamesNotAligned" severity="5">The variable names for parameters The (1) and A (2) do not align</error>
- <error line="173" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters The (1) and A (2) do not align</error>
- <error line="173" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var A does not match actual variable name $prefix at position 2</error>
- <error line="174" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
- <error line="174" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters A (2) and Configuration (3) do not align</error>
- <error line="174" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var Configuration does not match actual variable name $config at position 3</error>
- <error line="187" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="203" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var A does not match actual variable name $form at position 1</error>
- <error line="203" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="203" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="203" column="1" source="Joomla.Commenting.FunctionComment.SpacingBeforeTags" severity="5">There must be exactly one blank line before the tags in function comment</error>
- <error line="204" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
- <error line="204" column="1" source="Joomla.Commenting.FunctionComment.ParameterNamesNotAligned" severity="5">The variable names for parameters A (1) and The (2) do not align</error>
- <error line="204" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters A (1) and The (2) do not align</error>
- <error line="204" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $data at position 2</error>
- <error line="204" column="1" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$group" missing</error>
- <error line="205" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="229" column="23" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="229" column="23" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="229" column="31" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="229" column="31" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="229" column="35" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="229" column="35" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="229" column="45" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="229" column="45" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="230" column="25" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="230" column="25" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="230" column="33" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="230" column="33" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="230" column="37" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="230" column="37" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="230" column="47" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="230" column="47" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="230" column="69" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="230" column="69" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="230" column="73" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="230" column="73" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="230" column="81" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="230" column="81" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="230" column="85" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="230" column="85" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="246" column="22" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="246" column="22" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="246" column="30" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="246" column="30" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="246" column="34" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="246" column="34" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="247" column="24" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="247" column="24" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="247" column="32" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="247" column="32" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="247" column="36" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="247" column="36" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="247" column="60" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="247" column="60" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="247" column="64" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="247" column="64" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="247" column="72" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="247" column="72" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="247" column="76" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="247" column="76" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="282" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
- <error line="282" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var A does not match actual variable name $table at position 1</error>
- <error line="282" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="282" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="283" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="289" column="27" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="290" column="29" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="297" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
- <error line="297" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $data at position 1</error>
- <error line="297" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="298" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="315" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="323" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$group" missing</error>
- <error line="323" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$client_id" missing</error>
- <error line="327" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
+<file name="/administrator/components/com_plugins/models/plugin.php" errors="38" warnings="0">
+ <error line="57" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="106" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="127" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $pk at position 1</error>
+ <error line="127" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="127" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="180" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $type at position 1</error>
+ <error line="180" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="180" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="181" column="1" source="Joomla.Commenting.FunctionComment.ParameterNamesNotAligned" severity="5">The variable names for parameters The (1) and A (2) do not align</error>
+ <error line="181" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters The (1) and A (2) do not align</error>
+ <error line="181" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var A does not match actual variable name $prefix at position 2</error>
+ <error line="182" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
+ <error line="182" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters A (2) and Configuration (3) do not align</error>
+ <error line="182" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var Configuration does not match actual variable name $config at position 3</error>
+ <error line="195" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="211" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var A does not match actual variable name $form at position 1</error>
+ <error line="211" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="211" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="211" column="1" source="Joomla.Commenting.FunctionComment.SpacingBeforeTags" severity="5">There must be exactly one blank line before the tags in function comment</error>
+ <error line="212" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
+ <error line="212" column="1" source="Joomla.Commenting.FunctionComment.ParameterNamesNotAligned" severity="5">The variable names for parameters A (1) and The (2) do not align</error>
+ <error line="212" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters A (1) and The (2) do not align</error>
+ <error line="212" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $data at position 2</error>
+ <error line="212" column="1" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$group" missing</error>
+ <error line="213" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="290" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
+ <error line="290" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var A does not match actual variable name $table at position 1</error>
+ <error line="290" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="290" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="291" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="305" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
+ <error line="305" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $data at position 1</error>
+ <error line="305" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="306" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="323" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="331" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$group" missing</error>
+ <error line="331" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$client_id" missing</error>
+ <error line="335" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
 </file>
 <file name="/administrator/components/com_plugins/models/plugins.php" errors="19" warnings="0">
  <error line="24" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
@@ -5396,10 +5124,10 @@
  <error line="116" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
  <error line="116" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters Offset (2) and The (3) do not align</error>
  <error line="116" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $limit at position 3</error>
- <error line="173" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
- <error line="173" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name &amp;$items at position 1</error>
- <error line="173" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="173" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="174" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
+ <error line="174" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name &amp;$items at position 1</error>
+ <error line="174" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="174" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
 </file>
 <file name="/administrator/components/com_plugins/views/plugin/view.html.php" errors="4" warnings="0">
  <error line="27" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$tpl" missing</error>
@@ -5624,12 +5352,12 @@
  <error line="24" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var A does not match actual variable name $db at position 1</error>
  <error line="24" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
  <error line="24" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="115" column="4" source="Joomla.Commenting.SingleComment.TooClose" severity="5">Please consider a blank line preceding your comment</error>
- <error line="121" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "foreach (...)\n...{\n"; found "foreach(...)\n...{\n"</error>
- <error line="135" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else\n"</error>
- <error line="157" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else\n"</error>
- <error line="166" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n"; found "if (...) "</error>
- <error line="169" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n"; found "if (...) "</error>
+ <error line="117" column="4" source="Joomla.Commenting.SingleComment.TooClose" severity="5">Please consider a blank line preceding your comment</error>
+ <error line="123" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "foreach (...)\n...{\n"; found "foreach(...)\n...{\n"</error>
+ <error line="137" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else\n"</error>
+ <error line="159" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else\n"</error>
+ <error line="168" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n"; found "if (...) "</error>
+ <error line="171" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n"; found "if (...) "</error>
 </file>
 <file name="/administrator/components/com_tags/views/tag/tmpl/edit_options.php" errors="9" warnings="0">
  <error line="18" column="69" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
@@ -5668,33 +5396,17 @@
  <error line="21" column="1" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$clientId" missing</error>
  <error line="22" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
 </file>
-<file name="/administrator/components/com_templates/models/style.php" errors="22" warnings="0">
+<file name="/administrator/components/com_templates/models/style.php" errors="6" warnings="0">
  <error line="302" column="38" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
  <error line="302" column="38" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
  <error line="302" column="52" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
  <error line="302" column="52" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
  <error line="302" column="69" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
  <error line="302" column="69" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="350" column="32" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="350" column="32" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="357" column="41" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="357" column="41" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="357" column="55" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="357" column="55" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="357" column="65" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="357" column="65" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="360" column="22" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="360" column="22" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="361" column="24" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="361" column="24" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="361" column="49" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="361" column="49" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="361" column="63" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="361" column="63" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
 </file>
 <file name="/administrator/components/com_templates/models/template.php" errors="2" warnings="0">
- <error line="1193" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="1194" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters $location (2) and $file (3) do not align</error>
+ <error line="1163" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="1164" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters $location (2) and $file (3) do not align</error>
 </file>
 <file name="/administrator/components/com_templates/views/style/tmpl/edit_assignment.php" errors="2" warnings="0">
  <error line="13" column="33" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
@@ -5715,60 +5427,34 @@
  <error line="27" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$tpl" missing</error>
  <error line="29" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
 </file>
-<file name="/administrator/components/com_templates/views/styles/tmpl/default.php" errors="26" warnings="0">
+<file name="/administrator/components/com_templates/views/styles/tmpl/default.php" errors="4" warnings="0">
  <error line="13" column="38" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
  <error line="13" column="38" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="93" column="55" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="93" column="55" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="93" column="87" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="93" column="87" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="101" column="88" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="101" column="88" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="111" column="101" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="111" column="101" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="111" column="111" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="111" column="111" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="111" column="115" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="111" column="115" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="111" column="140" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="111" column="140" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="112" column="53" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="112" column="53" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="112" column="66" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="112" column="66" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="115" column="52" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="115" column="52" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="115" column="65" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="115" column="65" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="130" column="87" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="130" column="87" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+ <error line="93" column="89" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+ <error line="93" column="89" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
 </file>
 <file name="/administrator/components/com_templates/views/template/tmpl/default_tree.php" errors="1" warnings="0">
  <error line="28" column="14" source="Squiz.Operators.IncrementDecrementUsage" severity="5">Increment operators should be used where possible; found "$count = $count + 1;" but expected "$count++"</error>
 </file>
-<file name="/administrator/components/com_users/controller.php" errors="9" warnings="0">
+<file name="/administrator/components/com_users/controller.php" errors="7" warnings="0">
  <error line="24" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="24" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
  <error line="26" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
  <error line="52" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var If does not match actual variable name $cachable at position 1</error>
  <error line="52" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
  <error line="52" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="53" column="1" source="Joomla.Commenting.FunctionComment.ParameterNamesNotAligned" severity="5">The variable names for parameters If (1) and An (2) do not align</error>
  <error line="53" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var An does not match actual variable name $urlparams at position 2</error>
  <error line="55" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
 </file>
-<file name="/administrator/components/com_users/controllers/group.php" errors="12" warnings="0">
+<file name="/administrator/components/com_users/controllers/group.php" errors="10" warnings="0">
  <error line="32" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var An does not match actual variable name $data at position 1</error>
  <error line="32" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
  <error line="33" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters An (1) and The (2) do not align</error>
  <error line="33" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $key at position 2</error>
- <error line="33" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
  <error line="35" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
  <error line="48" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var An does not match actual variable name $data at position 1</error>
  <error line="48" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
  <error line="49" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters An (1) and The (2) do not align</error>
  <error line="49" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $key at position 2</error>
- <error line="49" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
  <error line="51" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
 </file>
 <file name="/administrator/components/com_users/controllers/groups.php" errors="9" warnings="0">
@@ -5782,28 +5468,24 @@
  <error line="97" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
  <error line="115" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
 </file>
-<file name="/administrator/components/com_users/controllers/level.php" errors="8" warnings="0">
+<file name="/administrator/components/com_users/controllers/level.php" errors="6" warnings="0">
  <error line="32" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var An does not match actual variable name $data at position 1</error>
  <error line="32" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
  <error line="33" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters An (1) and The (2) do not align</error>
  <error line="33" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $key at position 2</error>
- <error line="33" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
  <error line="35" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
  <error line="45" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
- <error line="70" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
 </file>
 <file name="/administrator/components/com_users/controllers/levels.php" errors="3" warnings="0">
  <error line="27" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$name" missing</error>
  <error line="27" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$prefix" missing</error>
  <error line="31" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
 </file>
-<file name="/administrator/components/com_users/controllers/mail.php" errors="3" warnings="0">
- <error line="17" column="1" source="Joomla.Commenting.ClassComment.MissingTag" severity="5">Missing @since tag in class comment</error>
- <error line="20" column="9" source="Joomla.Commenting.FunctionComment.Missing" severity="5">Missing function doc comment</error>
- <error line="39" column="9" source="Joomla.Commenting.FunctionComment.WrongStyle" severity="5">You must use "/**" style comments for a function comment</error>
-</file>
 <file name="/administrator/components/com_users/controllers/notes.php" errors="1" warnings="0">
  <error line="30" column="1" source="Joomla.Commenting.FunctionComment.SpacingBeforeTags" severity="5">There must be exactly one blank line before the tags in function comment</error>
+</file>
+<file name="/administrator/components/com_users/controllers/user.php" errors="1" warnings="0">
+ <error line="57" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
 </file>
 <file name="/administrator/components/com_users/controllers/users.php" errors="1" warnings="0">
  <error line="32" column="1" source="Joomla.Commenting.FunctionComment.UselessReturn" severity="5">Constructor and destructor comments must not have a @return tag</error>
@@ -5975,35 +5657,25 @@
  <error line="173" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
  <error line="185" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// update ordering values"</error>
 </file>
-<file name="/administrator/components/com_users/models/mail.php" errors="28" warnings="0">
+<file name="/administrator/components/com_users/models/mail.php" errors="18" warnings="0">
  <error line="24" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="25" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
  <error line="25" column="1" source="Joomla.Commenting.FunctionComment.ParameterNamesNotAligned" severity="5">The variable names for parameters $data (1) and $loadData (2) do not align</error>
  <error line="25" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters $data (1) and $loadData (2) do not align</error>
  <error line="25" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="26" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="33" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="44" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="60" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var A does not match actual variable name $form at position 1</error>
- <error line="60" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="60" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="61" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
- <error line="61" column="1" source="Joomla.Commenting.FunctionComment.ParameterNamesNotAligned" severity="5">The variable names for parameters A (1) and The (2) do not align</error>
- <error line="61" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters A (1) and The (2) do not align</error>
- <error line="61" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $data at position 2</error>
- <error line="61" column="1" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$group" missing</error>
- <error line="64" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
- <error line="70" column="9" source="Joomla.Commenting.FunctionComment.Missing" severity="5">Missing function doc comment</error>
- <error line="86" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// automatically removes html formatting"</error>
- <error line="87" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="93" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="100" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// get users in the group out of the acl"</error>
- <error line="107" column="20" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="107" column="20" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="110" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...} ...else "</error>
- <error line="118" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)...{...}\n...else\n"</error>
- <error line="165" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...} ...else\n"</error>
- <error line="178" column="4" source="Joomla.Commenting.SingleComment.MultiLine" severity="5">Please consider the /* */ style for comments that span over multiple lines.</error>
+ <error line="64" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var A does not match actual variable name $form at position 1</error>
+ <error line="64" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="64" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="65" column="1" source="Joomla.Commenting.FunctionComment.ParameterNamesNotAligned" severity="5">The variable names for parameters A (1) and The (2) do not align</error>
+ <error line="65" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters A (1) and The (2) do not align</error>
+ <error line="65" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $data at position 2</error>
+ <error line="65" column="1" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$group" missing</error>
+ <error line="70" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
+ <error line="76" column="9" source="Joomla.Commenting.FunctionComment.Missing" severity="5">Missing function doc comment</error>
+ <error line="92" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// automatically removes html formatting"</error>
+ <error line="107" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// get users in the group out of the acl"</error>
+ <error line="114" column="20" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+ <error line="114" column="20" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+ <error line="194" column="4" source="Joomla.Commenting.SingleComment.MultiLine" severity="5">Please consider the /* */ style for comments that span over multiple lines.</error>
 </file>
 <file name="/administrator/components/com_users/models/note.php" errors="2" warnings="0">
  <error line="168" column="1" source="Joomla.Commenting.SingleComment.MultiLine" severity="5">Please consider the /* */ style for comments that span over multiple lines.</error>
@@ -6033,18 +5705,18 @@
  <error line="21" column="89" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
 </file>
 <file name="/administrator/components/com_users/views/debuggroup/view.html.php" errors="3" warnings="0">
- <error line="29" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$tpl" missing</error>
- <error line="31" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
- <error line="64" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
+ <error line="47" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$tpl" missing</error>
+ <error line="49" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
+ <error line="82" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
 </file>
 <file name="/administrator/components/com_users/views/debuguser/tmpl/default.php" errors="2" warnings="0">
  <error line="13" column="38" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
  <error line="13" column="38" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
 </file>
 <file name="/administrator/components/com_users/views/debuguser/view.html.php" errors="3" warnings="0">
- <error line="29" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$tpl" missing</error>
- <error line="31" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
- <error line="64" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
+ <error line="47" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$tpl" missing</error>
+ <error line="49" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
+ <error line="82" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
 </file>
 <file name="/administrator/components/com_users/views/group/tmpl/edit.php" errors="4" warnings="0">
  <error line="13" column="38" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
@@ -6053,9 +5725,9 @@
  <error line="29" column="80" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
 </file>
 <file name="/administrator/components/com_users/views/group/view.html.php" errors="3" warnings="0">
- <error line="27" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$tpl" missing</error>
- <error line="29" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
- <error line="51" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
+ <error line="39" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$tpl" missing</error>
+ <error line="41" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
+ <error line="63" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
 </file>
 <file name="/administrator/components/com_users/views/groups/tmpl/default.php" errors="6" warnings="0">
  <error line="13" column="38" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
@@ -6066,9 +5738,9 @@
  <error line="157" column="111" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
 </file>
 <file name="/administrator/components/com_users/views/groups/view.html.php" errors="3" warnings="0">
- <error line="27" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$tpl" missing</error>
- <error line="29" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
- <error line="54" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
+ <error line="45" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$tpl" missing</error>
+ <error line="47" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
+ <error line="72" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
 </file>
 <file name="/administrator/components/com_users/views/level/tmpl/edit.php" errors="4" warnings="0">
  <error line="13" column="38" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
@@ -6076,13 +5748,10 @@
  <error line="94" column="68" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
  <error line="94" column="68" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
 </file>
-<file name="/administrator/components/com_users/views/level/view.html.php" errors="6" warnings="0">
- <error line="27" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$tpl" missing</error>
- <error line="29" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
- <error line="51" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
- <error line="71" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)...{...}\n...else\n"</error>
- <error line="73" column="4" source="Squiz.WhiteSpace.ScopeClosingBrace.Indent" severity="5">Closing brace indented incorrectly; expected 2 spaces, found 3</error>
- <error line="74" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)...{...}\n...else\n"</error>
+<file name="/administrator/components/com_users/views/level/view.html.php" errors="3" warnings="0">
+ <error line="39" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$tpl" missing</error>
+ <error line="41" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
+ <error line="63" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
 </file>
 <file name="/administrator/components/com_users/views/levels/tmpl/default.php" errors="4" warnings="0">
  <error line="13" column="38" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
@@ -6091,9 +5760,9 @@
  <error line="145" column="85" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
 </file>
 <file name="/administrator/components/com_users/views/levels/view.html.php" errors="3" warnings="0">
- <error line="27" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$tpl" missing</error>
- <error line="29" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
- <error line="54" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
+ <error line="45" column="2" source="Joomla.Commenting.FunctionComment.MissingParamTag" severity="5">Doc comment for "$tpl" missing</error>
+ <error line="47" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
+ <error line="72" column="1" source="Joomla.Commenting.FunctionComment.MissingReturn" severity="5">Missing @return tag in function comment</error>
 </file>
 <file name="/administrator/components/com_users/views/mail/tmpl/default.php" errors="80" warnings="0">
  <error line="12" column="15" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
@@ -6187,10 +5856,6 @@
  <error line="24" column="78" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
  <error line="24" column="78" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
 </file>
-<file name="/administrator/components/com_users/views/note/view.html.php" errors="2" warnings="0">
- <error line="68" column="40" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="68" column="40" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
-</file>
 <file name="/administrator/components/com_users/views/notes/tmpl/default.php" errors="2" warnings="0">
  <error line="123" column="85" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
  <error line="123" column="85" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
@@ -6247,63 +5912,63 @@
  <error line="229" column="3" source="Joomla.Commenting.SingleComment.NoSpace" severity="5">Please put a space between the // and the start of comment text; found "//echo nl2br(str_replace('#__','jos_',$query));"</error>
 </file>
 <file name="/administrator/components/com_weblinks/tables/weblink.php" errors="57" warnings="0">
- <error line="71" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
- <error line="71" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var Toggle does not match actual variable name $updateNulls at position 1</error>
- <error line="71" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="71" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="72" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="90" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="94" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="101" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="107" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="115" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="134" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="140" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// check for valid name"</error>
- <error line="141" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="156" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="162" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="167" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="173" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="179" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// clean up keywords -- eliminate extra spaces between phrases"</error>
- <error line="181" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="183" column="4" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// only process if not empty"</error>
- <error line="191" column="5" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</error>
- <error line="191" column="24" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// ignore blank keywords"</error>
- <error line="195" column="49" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// put array back together delimited by ", ""</error>
- <error line="206" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var An does not match actual variable name $pks at position 1</error>
- <error line="206" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
- <error line="206" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
- <error line="208" column="1" source="Joomla.Commenting.FunctionComment.ParameterNamesNotAligned" severity="5">The variable names for parameters An (1) and The (2) do not align</error>
- <error line="208" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters An (1) and The (2) do not align</error>
- <error line="208" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $state at position 2</error>
- <error line="209" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
- <error line="209" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $userId at position 3</error>
- <error line="210" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
- <error line="225" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
- <error line="237" column="14" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="237" column="14" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="237" column="18" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="237" column="18" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="237" column="33" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="237" column="33" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="237" column="36" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="237" column="36" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="246" column="56" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="246" column="56" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="246" column="70" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="246" column="70" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="251" column="13" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="251" column="13" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="252" column="11" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="252" column="11" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="252" column="42" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="252" column="42" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="252" column="48" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="252" column="48" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="253" column="14" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="253" column="14" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
- <error line="253" column="21" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
- <error line="253" column="21" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+ <error line="74" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
+ <error line="74" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var Toggle does not match actual variable name $updateNulls at position 1</error>
+ <error line="74" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="74" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="75" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="93" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
+ <error line="97" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
+ <error line="104" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
+ <error line="110" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
+ <error line="118" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
+ <error line="137" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
+ <error line="143" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// check for valid name"</error>
+ <error line="144" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
+ <error line="159" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
+ <error line="165" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
+ <error line="170" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
+ <error line="176" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
+ <error line="182" column="3" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// clean up keywords -- eliminate extra spaces between phrases"</error>
+ <error line="184" column="3" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
+ <error line="186" column="4" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// only process if not empty"</error>
+ <error line="194" column="5" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</error>
+ <error line="194" column="24" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// ignore blank keywords"</error>
+ <error line="198" column="49" source="Joomla.Commenting.SingleComment.LowerCase" severity="5">Please start your comment with a capital letter; found "// put array back together delimited by ", ""</error>
+ <error line="209" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var An does not match actual variable name $pks at position 1</error>
+ <error line="209" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType" severity="5">Expected 2 spaces after the longest type</error>
+ <error line="209" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName" severity="5">Expected 2 spaces after the longest variable name</error>
+ <error line="211" column="1" source="Joomla.Commenting.FunctionComment.ParameterNamesNotAligned" severity="5">The variable names for parameters An (1) and The (2) do not align</error>
+ <error line="211" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters An (1) and The (2) do not align</error>
+ <error line="211" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $state at position 2</error>
+ <error line="212" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterParams" severity="5">Last parameter comment requires a blank newline after it</error>
+ <error line="212" column="1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch" severity="5">Doc comment for var The does not match actual variable name $userId at position 3</error>
+ <error line="213" column="1" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn" severity="5">Return comment requires a blank newline after it</error>
+ <error line="228" column="4" source="Joomla.ControlStructures.ControlSignature" severity="5">Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</error>
+ <error line="240" column="14" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+ <error line="240" column="14" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+ <error line="240" column="18" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+ <error line="240" column="18" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+ <error line="240" column="33" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+ <error line="240" column="33" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+ <error line="240" column="36" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+ <error line="240" column="36" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+ <error line="249" column="56" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+ <error line="249" column="56" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+ <error line="249" column="70" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+ <error line="249" column="70" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+ <error line="254" column="13" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+ <error line="254" column="13" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+ <error line="255" column="11" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+ <error line="255" column="11" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+ <error line="255" column="42" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+ <error line="255" column="42" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+ <error line="255" column="48" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+ <error line="255" column="48" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+ <error line="256" column="14" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+ <error line="256" column="14" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
+ <error line="256" column="21" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
+ <error line="256" column="21" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>
 </file>
 <file name="/administrator/components/com_weblinks/views/weblink/tmpl/edit_params.php" errors="4" warnings="0">
  <error line="18" column="38" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>

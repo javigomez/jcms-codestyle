@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../bootstrap_phpcs.xsl"?>
-<phpcs version="1.5.2">
+<phpcs version="1.5.4">
 <file name="/libraries/cms/form/field/media.php" errors="0" warnings="1">
  <warning line="382" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
 </file>
@@ -15,11 +15,15 @@
  <error line="250" column="65" source="PEAR.Functions.ValidDefaultValue.NotAtEnd" severity="5">Arguments with default values must be at the end of the argument list</error>
 </file>
 <file name="/libraries/cms/helper/tags.php" errors="0" warnings="5">
- <warning line="72" column="208" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 207 characters</warning>
- <warning line="76" column="177" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 176 characters</warning>
- <warning line="522" column="166" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 165 characters</warning>
- <warning line="524" column="161" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 160 characters</warning>
- <warning line="532" column="396" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 395 characters</warning>
+ <warning line="75" column="208" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 207 characters</warning>
+ <warning line="79" column="177" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 176 characters</warning>
+ <warning line="525" column="166" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 165 characters</warning>
+ <warning line="527" column="161" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 160 characters</warning>
+ <warning line="535" column="396" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 395 characters</warning>
+</file>
+<file name="/libraries/cms/html/email.php" errors="0" warnings="2">
+ <warning line="76" column="172" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 171 characters</warning>
+ <warning line="80" column="168" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 167 characters</warning>
 </file>
 <file name="/libraries/cms/html/formbehavior.php" errors="0" warnings="3">
  <warning line="60" column="169" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 168 characters</warning>
@@ -27,14 +31,11 @@
  <warning line="62" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
 </file>
 <file name="/libraries/cms/html/grid.php" errors="0" warnings="2">
- <warning line="128" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
- <warning line="273" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
+ <warning line="129" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
+ <warning line="274" column="154" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 153 characters</warning>
 </file>
 <file name="/libraries/cms/html/searchtools.php" errors="0" warnings="1">
  <warning line="137" column="168" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 167 characters</warning>
-</file>
-<file name="/libraries/cms/html/select.php" errors="1" warnings="0">
- <error line="146" column="85" source="PEAR.Functions.ValidDefaultValue.NotAtEnd" severity="5">Arguments with default values must be at the end of the argument list</error>
 </file>
 <file name="/libraries/cms/html/sortablelist.php" errors="1" warnings="1">
  <error line="41" column="71" source="PEAR.Functions.ValidDefaultValue.NotAtEnd" severity="5">Arguments with default values must be at the end of the argument list</error>
@@ -47,11 +48,14 @@
  <warning line="50" column="158" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 157 characters</warning>
 </file>
 <file name="/libraries/cms/table/corecontent.php" errors="0" warnings="1">
- <warning line="352" column="171" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 170 characters</warning>
+ <warning line="358" column="171" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 170 characters</warning>
 </file>
 <file name="/libraries/joomla/database/driver/mysqli.php" errors="0" warnings="2">
  <warning line="109" column="169" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 168 characters</warning>
- <warning line="573" column="163" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 162 characters</warning>
+ <warning line="574" column="163" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 162 characters</warning>
+</file>
+<file name="/libraries/joomla/document/json/json.php" errors="0" warnings="1">
+ <warning line="42" column="163" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 162 characters</warning>
 </file>
 <file name="/libraries/joomla/form/fields/rules.php" errors="0" warnings="1">
  <warning line="271" column="156" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 155 characters</warning>
