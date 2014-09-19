@@ -536,6 +536,10 @@
  <error line="24" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters $i (2) and $enabled (3) do not align</error>
  <error line="25" column="1" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned" severity="5">The comments for parameters $enabled (3) and $checkbox (4) do not align</error>
 </file>
+<file name="/administrator/components/com_installer/models/install.php" errors="0" warnings="2">
+ <warning line="232" column="158" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 157 characters</warning>
+ <warning line="240" column="158" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 157 characters</warning>
+</file>
 <file name="/administrator/components/com_installer/views/discover/tmpl/default_item.php" errors="4" warnings="0">
  <error line="12" column="28" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be followed by one space</error>
  <error line="12" column="28" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing" severity="5">Concat operator must be preceeded by one space</error>

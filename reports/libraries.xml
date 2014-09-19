@@ -60,6 +60,9 @@
 <file name="/libraries/joomla/form/fields/rules.php" errors="0" warnings="1">
  <warning line="271" column="156" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 155 characters</warning>
 </file>
+<file name="/libraries/joomla/google/embed/maps.php" errors="0" warnings="1">
+ <warning line="596" column="155" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 154 characters</warning>
+</file>
 <file name="/libraries/joomla/image/image.php" errors="0" warnings="2">
  <warning line="701" column="155" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 154 characters</warning>
  <warning line="705" column="157" source="Generic.Files.LineLength.TooLong" severity="5">Line exceeds 150 characters; contains 156 characters</warning>
